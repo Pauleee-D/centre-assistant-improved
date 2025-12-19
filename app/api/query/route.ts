@@ -94,7 +94,7 @@ export async function POST(request: Request) {
       inputType: 'search_query',
     });
 
-    const queryEmbedding = embeddingResponse.embeddings[0];
+    const queryEmbedding = (embeddingResponse.embeddings as number[][])[0];
 
     // Query Pinecone
     const index = getPinecone().index(process.env.PINECONE_INDEX_NAME!);
