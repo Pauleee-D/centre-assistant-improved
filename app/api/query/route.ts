@@ -97,7 +97,10 @@ export async function POST(request: Request) {
     const queryEmbedding = (embeddingResponse.embeddings as number[][])[0];
 
     // Query Pinecone
-    const index = getPinecone().index(process.env.PINECONE_INDEX_NAME!);
+    const indexName = process.env.PINECONE_INDEX_NAME!;
+    const index = process.env.PINECONE_INDEX_HOST
+      ? getPinecone().index(indexName, process.env.PINECONE_INDEX_HOST)
+      : getPinecone().index(indexName);
 
     // Build filter for centre if specified
     const filter = centre && centre !== 'all'
