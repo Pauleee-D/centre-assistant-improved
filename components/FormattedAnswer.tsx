@@ -6,13 +6,49 @@ export function FormattedAnswer({ answer }: { answer: string }) {
     let currentList: string[] = [];
     let listType: 'bullet' | 'number' | null = null;
 
+    // Parse inline markdown (bold, italic) - defined before flushList
+    const parseInlineMarkdown = (text: string) => {
+      const parts: (string | JSX.Element)[] = [];
+      let currentIndex = 0;
+      let keyCounter = 0;
+
+      // Regex to match **bold** or *italic*
+      const markdownRegex = /(\*\*(.+?)\*\*|\*(.+?)\*)/g;
+      let match;
+
+      while ((match = markdownRegex.exec(text)) !== null) {
+        // Add text before the match
+        if (match.index > currentIndex) {
+          parts.push(text.substring(currentIndex, match.index));
+        }
+
+        // Add formatted text
+        if (match[2]) {
+          // **bold**
+          parts.push(<strong key={`bold-${keyCounter++}`}>{match[2]}</strong>);
+        } else if (match[3]) {
+          // *italic*
+          parts.push(<em key={`italic-${keyCounter++}`}>{match[3]}</em>);
+        }
+
+        currentIndex = match.index + match[0].length;
+      }
+
+      // Add remaining text
+      if (currentIndex < text.length) {
+        parts.push(text.substring(currentIndex));
+      }
+
+      return parts.length > 0 ? parts : text;
+    };
+
     const flushList = (index: number) => {
       if (currentList.length > 0) {
         if (listType === 'bullet') {
           elements.push(
             <ul key={`list-${index}`} className="list-disc list-inside space-y-2 my-3 ml-4">
               {currentList.map((item, i) => (
-                <li key={i} className="leading-relaxed">{item}</li>
+                <li key={i} className="leading-relaxed">{parseInlineMarkdown(item)}</li>
               ))}
             </ul>
           );
@@ -20,7 +56,7 @@ export function FormattedAnswer({ answer }: { answer: string }) {
           elements.push(
             <ol key={`list-${index}`} className="list-decimal list-inside space-y-2 my-3 ml-4">
               {currentList.map((item, i) => (
-                <li key={i} className="leading-relaxed">{item}</li>
+                <li key={i} className="leading-relaxed">{parseInlineMarkdown(item)}</li>
               ))}
             </ol>
           );
@@ -75,7 +111,7 @@ export function FormattedAnswer({ answer }: { answer: string }) {
       flushList(index);
       elements.push(
         <p key={`p-${index}`} className="leading-relaxed mb-3">
-          {trimmed}
+          {parseInlineMarkdown(trimmed)}
         </p>
       );
     });
