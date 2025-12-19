@@ -3,18 +3,38 @@ import { Index } from '@upstash/vector';
 import Groq from 'groq-sdk';
 import { CohereClient } from 'cohere-ai';
 
-const groq = new Groq({
-  apiKey: process.env.GROQ_API_KEY!,
-});
+// Lazy initialization to avoid build-time errors
+let groq: Groq;
+let cohere: CohereClient;
+let index: Index;
 
-const cohere = new CohereClient({
-  token: process.env.COHERE_API_KEY!,
-});
+function getGroq() {
+  if (!groq) {
+    groq = new Groq({
+      apiKey: process.env.GROQ_API_KEY!,
+    });
+  }
+  return groq;
+}
 
-const index = new Index({
-  url: process.env.UPSTASH_VECTOR_REST_URL!,
-  token: process.env.UPSTASH_VECTOR_REST_TOKEN!,
-});
+function getCohere() {
+  if (!cohere) {
+    cohere = new CohereClient({
+      token: process.env.COHERE_API_KEY!,
+    });
+  }
+  return cohere;
+}
+
+function getIndex() {
+  if (!index) {
+    index = new Index({
+      url: process.env.UPSTASH_VECTOR_REST_URL!,
+      token: process.env.UPSTASH_VECTOR_REST_TOKEN!,
+    });
+  }
+  return index;
+}
 
 // Simple in-memory rate limiting
 const rateLimitMap = new Map<string, { count: number; resetTime: number }>();
@@ -78,7 +98,7 @@ async function expandQuery(originalQuery: string): Promise<string[]> {
     const normalizedQuery = normalizeTemporalQuery(originalQuery);
     console.log(`📅 Normalized query: "${originalQuery}" → "${normalizedQuery}"`);
 
-    const completion = await groq.chat.completions.create({
+    const completion = await getGroq().chat.completions.create({
       model: 'llama-3.1-8b-instant',
       messages: [
         {
@@ -148,7 +168,7 @@ export async function POST(request: Request) {
     // Step 2: Multi-query Retrieval - search with all query variations
     const allResults = await Promise.all(
       expandedQueries.map((query) =>
-        index.query({
+        getIndex().query({
           data: query,
           topK: 15, // Get more results initially
           includeMetadata: true,
@@ -199,7 +219,7 @@ export async function POST(request: Request) {
           return `${title}: ${content}`;
         });
 
-        const rerank = await cohere.rerank({
+        const rerank = await getCohere().rerank({
           query: question,
           documents: documents,
           topN: 5,
@@ -320,7 +340,7 @@ You'll need to present your valid concession card when signing up or visiting.`;
       systemPrompt += `\n\nCurrent context: Today is ${currentDay}${isWeekend ? ' (weekend)' : ' (weekday)'}.`;
     }
 
-    const completion = await groq.chat.completions.create({
+    const completion = await getGroq().chat.completions.create({
       model: 'llama-3.1-8b-instant',
       messages: [
         {

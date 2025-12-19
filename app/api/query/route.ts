@@ -2,14 +2,28 @@ import { NextResponse } from 'next/server';
 import { Index } from '@upstash/vector';
 import Groq from 'groq-sdk';
 
-const groq = new Groq({
-  apiKey: process.env.GROQ_API_KEY!,
-});
+// Lazy initialization to avoid build-time errors
+let groq: Groq;
+let index: Index;
 
-const index = new Index({
-  url: process.env.UPSTASH_VECTOR_REST_URL!,
-  token: process.env.UPSTASH_VECTOR_REST_TOKEN!,
-});
+function getGroq() {
+  if (!groq) {
+    groq = new Groq({
+      apiKey: process.env.GROQ_API_KEY!,
+    });
+  }
+  return groq;
+}
+
+function getIndex() {
+  if (!index) {
+    index = new Index({
+      url: process.env.UPSTASH_VECTOR_REST_URL!,
+      token: process.env.UPSTASH_VECTOR_REST_TOKEN!,
+    });
+  }
+  return index;
+}
 
 // Simple in-memory rate limiting
 const rateLimitMap = new Map<string, { count: number; resetTime: number }>();
@@ -64,7 +78,7 @@ export async function POST(request: Request) {
     }
 
     // Query vector database
-    const results = await index.query({
+    const results = await getIndex().query({
       data: question,
       topK: 10,
       includeMetadata: true,
@@ -105,7 +119,7 @@ export async function POST(request: Request) {
       .join('\n\n');
 
     // Generate response with Groq
-    const completion = await groq.chat.completions.create({
+    const completion = await getGroq().chat.completions.create({
       model: 'llama-3.1-8b-instant',
       messages: [
         {
