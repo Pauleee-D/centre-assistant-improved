@@ -1,14 +1,16 @@
+import React from 'react';
+
 export function FormattedAnswer({ answer }: { answer: string }) {
   // Process the answer text to add formatting
   const formatText = (text: string) => {
     const lines = text.split('\n');
-    const elements: JSX.Element[] = [];
+    const elements: React.ReactElement[] = [];
     let currentList: string[] = [];
     let listType: 'bullet' | 'number' | null = null;
 
     // Parse inline markdown (bold, italic) - defined before flushList
     const parseInlineMarkdown = (text: string) => {
-      const parts: (string | JSX.Element)[] = [];
+      const parts: (string | React.ReactElement)[] = [];
       let currentIndex = 0;
       let keyCounter = 0;
 

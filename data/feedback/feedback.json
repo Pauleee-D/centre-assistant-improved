@@ -6,5 +6,29 @@
     "answer": "Good morning. I'd be happy to assist you with our opening hours at the Whitlam Leisure Centre.\n\nPlease note that our opening hours may vary depending on the specific facility you're interested in. \n\nFor the HEALTH CLUB, our hours are:\n- Monday to Friday: 5:00AM to 9:30PM\n- Saturday and Sunday: 7:00AM to 6:30PM\n\nFor the INDOOR HEATED POOLS, our hours are:\n- Monday to Friday: 5:00AM to 8:30PM\n- Saturday and Sunday: 7:00AM to 6:30PM\n\nAs for the OUTDOOR POOLS, please be aware that they are currently closed from 7th April to 5th October 2025. When they are open, the hours are:\n- Monday to Friday: 5:00AM to 7:30PM (Note: Outdoor pools close one hour before indoor pools)\n- Saturday and Sunday: 7:00AM to 5:30PM\n\nLastly, the STADIUM's hours are:\n- Monday to Friday: 5:00AM to 9:00PM\n- Saturday and Sunday: 7:00AM to 6:30PM\n\nPlease feel free to visit our website or contact us directly for the most up-to-date information or to confirm specific hours before your visit.",
     "rating": "positive",
     "system": "improved"
+  },
+  {
+    "id": "1766104105146-yo3gogxx6",
+    "timestamp": "2025-12-19T00:28:25.146Z",
+    "question": "How much for a casual swim?",
+    "answer": "For a casual swim at Whitlam Leisure Centre, the cost is as follows:\n\n- Adult Swim: $9.00\n- Adult Swim Concession: $6.90\n\nAdditionally, children under 2 years old enjoy free entry, while children aged 2-18 years old pay $6.90 for a casual swim.",
+    "rating": "positive",
+    "system": "improved"
+  },
+  {
+    "id": "1766114894524-o5661x0ap",
+    "timestamp": "2025-12-19T03:28:14.524Z",
+    "question": "does Whitlam have a steam room",
+    "answer": "I have checked our facility information, and it appears that Whitlam Leisure Centre has a dry sauna, not a steam room. The dry sauna is heated to a comfortable temperature of 70-80 degrees, and it's available for use by our members and casual visitors. If you're looking for a relaxing and rejuvenating experience, I recommend checking out the dry sauna or exploring other amenities we have to offer.",
+    "rating": "positive",
+    "system": "improved"
+  },
+  {
+    "id": "1766114897840-3eb66o0ci",
+    "timestamp": "2025-12-19T03:28:17.840Z",
+    "question": "does Whitlam have a steam room",
+    "answer": "Thank you for your question about our facilities at Whitlam Leisure Centre. \n\nAfter checking our knowledge base, I'm sorry to inform you that we do not have a steam room at our leisure centre. However, we do have an indoor spa with a temperature range of 36-37 degrees, which is perfect for relaxation, and a dry sauna with a temperature range of 70-80 degrees. If you have any further questions or concerns, please don't hesitate to ask.",
+    "rating": "positive",
+    "system": "original"
   }
 ]

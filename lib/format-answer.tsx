@@ -1,4 +1,6 @@
-export function formatAnswer(answer: string): JSX.Element[] {
+import React from 'react';
+
+export function formatAnswer(answer: string): React.ReactElement[] {
   // Split by double newlines to separate paragraphs
   const paragraphs = answer.split('\n\n');
 
