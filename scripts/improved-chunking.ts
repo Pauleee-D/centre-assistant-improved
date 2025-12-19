@@ -1,6 +1,10 @@
 import { Index } from '@upstash/vector';
 import { readFile } from 'fs/promises';
 import path from 'path';
+import * as dotenv from 'dotenv';
+
+// Load environment variables
+dotenv.config({ path: '.env.local' });
 
 const index = new Index({
   url: process.env.UPSTASH_VECTOR_REST_URL!,
@@ -62,8 +66,8 @@ function extractCategory(line: string): string | null {
 function normalizeForId(text: string): string {
   return text
     .toLowerCase()
-    .replace(/[^a-z0-9]+/g, '-')
-    .replace(/^-+|-+$/g, '');
+    .replace(/[^a-z0-9]+/g, '') // Remove all non-alphanumeric characters (no hyphens)
+    .trim();
 }
 
 async function processKnowledgeBase() {
@@ -71,7 +75,10 @@ async function processKnowledgeBase() {
   const filePath = path.join(process.cwd(), 'data', 'knowledge-base-clean.md');
   const content = await readFile(filePath, 'utf-8');
 
+  console.log(`📄 File size: ${content.length} characters`);
+
   const lines = content.split('\n');
+  console.log(`📄 Total lines: ${lines.length}`);
   const chunks: Chunk[] = [];
 
   let currentCentre = '';
@@ -79,11 +86,12 @@ async function processKnowledgeBase() {
   let currentContent = '';
 
   for (let i = 0; i < lines.length; i++) {
-    const line = lines[i];
+    const line = lines[i].trim(); // Trim to handle Windows line endings
 
     // Check for centre heading (##)
     const centreName = extractCentreName(line);
     if (centreName) {
+      console.log(`🏢 Found centre: ${centreName}`);
       // Process any accumulated content before changing centre
       if (currentContent.trim() && currentCentre && currentCategory) {
         processContent(currentCentre, currentCategory, currentContent, chunks);
@@ -97,6 +105,7 @@ async function processKnowledgeBase() {
     // Check for category heading (###)
     const categoryName = extractCategory(line);
     if (categoryName) {
+      console.log(`  📁 Found category: ${categoryName}`);
       // Process any accumulated content before changing category
       if (currentContent.trim() && currentCentre && currentCategory) {
         processContent(currentCentre, currentCategory, currentContent, chunks);
@@ -119,7 +128,10 @@ async function processKnowledgeBase() {
 
   // Process final content
   if (currentContent.trim() && currentCentre && currentCategory) {
+    console.log(`✅ Processing final content for ${currentCentre} - ${currentCategory}`);
     processContent(currentCentre, currentCategory, currentContent, chunks);
+  } else {
+    console.log(`⚠️  No final content to process. Centre: ${currentCentre}, Category: ${currentCategory}, Content length: ${currentContent.length}`);
   }
 
   console.log(`\n📊 Total chunks created: ${chunks.length}`);
@@ -156,10 +168,14 @@ function processContent(
   chunks: Chunk[]
 ): void {
   const trimmedContent = content.trim();
-  if (!trimmedContent) return;
+  if (!trimmedContent) {
+    console.log(`    ⚠️  Empty content for ${centre} - ${category}`);
+    return;
+  }
 
   // Create smaller chunks for better retrieval
   const textChunks = smartChunk(trimmedContent, 400);
+  console.log(`    ✨ Creating ${textChunks.length} chunks for ${centre} - ${category}`);
 
   textChunks.forEach((chunkText, index) => {
     const centreId = normalizeForId(centre);

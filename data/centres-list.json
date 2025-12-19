@@ -1,21 +1,21 @@
 [
   {
-    "id": "stromloleisurecentre",
+    "id": "stromlo",
     "name": "Stromlo Leisure Centre",
     "state": "ACT"
   },
   {
-    "id": "lakesideleisurecentre",
+    "id": "lakeside",
     "name": "Lakeside Leisure Centre",
     "state": "ACT"
   },
   {
-    "id": "gungahlinleisurecentre",
+    "id": "gungahlin",
     "name": "Gungahlin Leisure Centre",
     "state": "ACT"
   },
   {
-    "id": "canberraolympicpcw",
+    "id": "canberraolympicpool",
     "name": "Canberra Olympic PCW",
     "state": "ACT"
   },
@@ -25,32 +25,32 @@
     "state": "ACT"
   },
   {
-    "id": "dicksonpoolsseasonal",
+    "id": "dicksonpools",
     "name": "Dickson Pools (seasonal)",
     "state": "ACT"
   },
   {
-    "id": "michaelclarkereccentre",
+    "id": "michaelclarke",
     "name": "Michael Clarke Rec Centre",
     "state": "NSW"
   },
   {
-    "id": "greatlakesleisurecentre",
+    "id": "greatlakes",
     "name": "Great Lakes Leisure Centre",
     "state": "NSW"
   },
   {
-    "id": "michaelwendenaquaticleisure",
+    "id": "michaelwenden",
     "name": "Michael Wenden Aquatic Leisure",
     "state": "NSW"
   },
   {
-    "id": "moreeartisanaquatic",
+    "id": "moree",
     "name": "Moree Artisan Aquatic",
     "state": "NSW"
   },
   {
-    "id": "singletonswimandgym",
+    "id": "singleton",
     "name": "Singleton Swim and Gym",
     "state": "NSW"
   },
@@ -60,7 +60,7 @@
     "state": "NSW"
   },
   {
-    "id": "tomareeseasonal",
+    "id": "tomaree",
     "name": "Tomaree (seasonal)",
     "state": "NSW"
   },
@@ -90,7 +90,7 @@
     "state": "NSW"
   },
   {
-    "id": "kurrikurriaquaticandfitnesscentre",
+    "id": "kurrikurri",
     "name": "Kurri Kurri Aquatic and Fitness Centre",
     "state": "NSW"
   },
@@ -100,7 +100,7 @@
     "state": "NSW"
   },
   {
-    "id": "swellpalmersonpool",
+    "id": "swell",
     "name": "SWELL Palmerson Pool",
     "state": "NT"
   },
@@ -115,17 +115,17 @@
     "state": "QLD"
   },
   {
-    "id": "fernyhillswimmingpcw",
+    "id": "fernyhillswimmingpool",
     "name": "Ferny Hill Swimming PCW",
     "state": "QLD"
   },
   {
-    "id": "dalby",
+    "id": "dalbyaquaticcentre",
     "name": "Dalby",
     "state": "QLD"
   },
   {
-    "id": "gympieaquaticcentre",
+    "id": "gympie",
     "name": "Gympie Aquatic Centre",
     "state": "QLD"
   },
@@ -141,11 +141,11 @@
   },
   {
     "id": "bundaberg",
-    "name": "Bundaberg (coming soon)",
+    "name": "Bundaberg",
     "state": "QLD"
   },
   {
-    "id": "wulandarecandconcentre",
+    "id": "wulanda",
     "name": "Wulanda Rec and Con Centre",
     "state": "SA"
   },
@@ -155,7 +155,7 @@
     "state": "SA"
   },
   {
-    "id": "swirlsmithton",
+    "id": "swirl",
     "name": "SWIRL (Smithton)",
     "state": "TAS"
   },
@@ -165,7 +165,7 @@
     "state": "TAS"
   },
   {
-    "id": "tracthomastownreccentre",
+    "id": "trac",
     "name": "TRAC (Thomastown Rec Centre)",
     "state": "VIC"
   },
@@ -175,7 +175,7 @@
     "state": "VIC"
   },
   {
-    "id": "whittleseaswimcentreseasonal",
+    "id": "whittleseaswimcentre",
     "name": "Whittlesea Swim Centre (seasonal?)",
     "state": "VIC"
   },
@@ -195,7 +195,7 @@
     "state": "VIC"
   },
   {
-    "id": "yarracentre",
+    "id": "yarra",
     "name": "Yarra Centre",
     "state": "VIC"
   },
@@ -210,42 +210,42 @@
     "state": "VIC"
   },
   {
-    "id": "somervillereccentre",
+    "id": "somerville",
     "name": "Somerville Rec Centre",
     "state": "VIC"
   },
   {
-    "id": "jackhortmemorialpool",
+    "id": "jackhort",
     "name": "Jack Hort Memorial Pool",
     "state": "VIC"
   },
   {
-    "id": "robinvalerecandaquaticseasonal",
+    "id": "robinvale",
     "name": "Robinvale Rec and Aquatic (seasonal)",
     "state": "VIC"
   },
   {
-    "id": "portlandleisureandaquatic",
+    "id": "portland",
     "name": "Portland Leisure and Aquatic",
     "state": "VIC"
   },
   {
-    "id": "pelicanparkreccentre",
+    "id": "pelicanpark",
     "name": "Pelican Park Rec Centre",
     "state": "VIC"
   },
   {
-    "id": "millparkleisure",
+    "id": "millpark",
     "name": "Mill Park Leisure",
     "state": "VIC"
   },
   {
-    "id": "monbulkaquaticcentre",
+    "id": "monbulk",
     "name": "Monbulk Aquatic Centre",
     "state": "VIC"
   },
   {
-    "id": "gurriwanyarrawellbeingcentre",
+    "id": "gurriwanyarra",
     "name": "Gurri Wanyarra Wellbeing Centre",
     "state": "VIC"
   },
@@ -280,12 +280,12 @@
     "state": "VIC"
   },
   {
-    "id": "eastfremantlebactive",
+    "id": "eastfremantle",
     "name": "East Fremantle (B active)",
     "state": "WA"
   },
   {
-    "id": "loftusreccentre",
+    "id": "loftus",
     "name": "Loftus Rec Centre",
     "state": "WA"
   }

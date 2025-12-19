@@ -30,5 +30,29 @@
     "answer": "Thank you for your question about our facilities at Whitlam Leisure Centre. \n\nAfter checking our knowledge base, I'm sorry to inform you that we do not have a steam room at our leisure centre. However, we do have an indoor spa with a temperature range of 36-37 degrees, which is perfect for relaxation, and a dry sauna with a temperature range of 70-80 degrees. If you have any further questions or concerns, please don't hesitate to ask.",
     "rating": "positive",
     "system": "original"
+  },
+  {
+    "id": "1766143496587-0dhim9zoj",
+    "timestamp": "2025-12-19T11:24:56.587Z",
+    "question": "tell  me about the pools",
+    "answer": "At our leisure centre, we're proud to offer two fantastic pools for you to enjoy.\n\nOur main pool is a 25-metre, six-lane competitive pool perfect for lap swimming, swimming lessons, and water-based exercise classes. The pool is also heated to a warm 28°C, making it ideal for relaxation and socialising.\n\nIn addition to the main pool, we also have a smaller, 10-metre teaching pool. This pool is ideal for young children and beginners to learn how to swim, and it's also a great space for aquatic play and fun activities.\n\nBoth pools are open to members and non-members, and we offer a range of pool-based activities and classes throughout the week. These include swimming lessons, aqua aerobics, and family swim sessions.",
+    "rating": "positive",
+    "system": "original"
+  },
+  {
+    "id": "1766143992342-vri8l7rjv",
+    "timestamp": "2025-12-19T11:33:12.342Z",
+    "question": "tell  me about the pools",
+    "answer": "Our leisure centre features two pools:\n\n- The indoor heated pool is available year-round, providing a comfortable temperature for swimming laps or leisurely swims. \n\n- The outdoor pool operates on a seasonal basis, depending on the weather conditions.\n\nWe also have a family fun pool with ramp access, perfect for families with young children or individuals who require easier access to the water. \n\nWould you like to know more about pool hours, temperatures, or access?",
+    "rating": "positive",
+    "system": "original"
+  },
+  {
+    "id": "1766154599817-is4escytq",
+    "timestamp": "2025-12-19T14:29:59.817Z",
+    "question": "tell  me about the pools",
+    "answer": "Whitlam Leisure Centre offers an excellent aquatic experience with five fantastic pools. Here's a brief overview:\n\n- **Outdoor 50m Heated Pool:** Our 50m outdoor pool is perfect for lap swimming, training, and recreational swimming. Enjoy the sunshine and fresh air while staying active.\n\n- **Indoor 25m Heated Pool:** Our 25m indoor pool is ideal for lap swimming, water aerobics, and other aquatic programs. The temperature is maintained for comfort and safety.\n\n- **Outdoor Heated Family Fun Pool:** This fantastic pool is perfect for families with young children. The family fun pool features ramp access, making it easily accessible for people with mobility impairments. An aquatic wheelchair is also available on site for use.\n\n- **Indoor Heated Toddler Pool:** This pool is designed specifically for young children, providing a safe and enjoyable space for them to play and learn.\n\n- **Indoor Heated Wading Pool:** This pool is perfect for young children to learn how to swim and play in a calm and safe environment.\n\n- **Indoor Spa and Sauna:** Relax and unwind in our indoor spa, which is maintained at a comfortable temperature of 36-37 degrees. Our dry sauna is also available, heated to a temperature of 70-80 degrees.\n\nPlease note that our outdoor pools operate seasonally and are closed from 7th April to 5th October 2025. Also, remember that children under 5 years must be actively supervised within arm's reach at all times, and parents must remain on site when children under 16 are using the facilities.\n\nIf you have any specific questions about our pool facilities or need more information, please don't hesitate to ask.",
+    "rating": "positive",
+    "system": "original"
   }
 ]
