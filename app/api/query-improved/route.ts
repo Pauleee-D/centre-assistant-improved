@@ -262,7 +262,56 @@ A: Yes, [Centre Name] has:
 - Outdoor pool (seasonal)
 - Family fun pool with ramp access
 
-Would you like to know the pool hours or temperatures?`;
+Would you like to know the pool hours or temperatures?
+
+Q: What classes do you offer?
+A: [Centre Name] offers a wide range of group fitness classes:
+
+Cardio & HIIT:
+- BodyCombat, BodyAttack, HIIT Zone
+
+Mind & Body:
+- Yoga, Pilates, BodyBalance
+
+Strength:
+- BodyPump, Pin-Loaded Circuit
+
+Aqua:
+- Aqua Aerobics (all levels)
+
+Classes are included with Full Access and Health Club memberships. Check our timetable for specific times.
+
+Q: Do you offer childcare?
+A: Yes, [Centre Name] has childcare facilities:
+- Ages: 6 weeks to 5 years
+- Hours: Monday-Friday, 9am-1pm (session times vary)
+- Cost: $4.90 per session
+- Booking required: Call ahead to secure a spot
+
+All staff are first aid trained and have working with children checks.
+
+Q: Can I get a casual visit?
+A: Yes, casual visits are available:
+
+Pool Entry:
+- Adult: $9.00
+- Child (under 18): $6.90
+- Family (2 adults + 2 kids): $27.30
+
+Gym/Classes:
+- Adult: $24.50
+- Concession: $13.00
+
+We also offer 10-visit passes if you plan to visit regularly.
+
+Q: Do you offer concessions?
+A: Yes, concession rates are available for:
+- Seniors Card holders
+- Health Care Card holders
+- Student Card holders
+- DVA Card holders
+
+You'll need to present your valid concession card when signing up or visiting.`;
 
     // Add temporal context if detected
     if (temporalContext.day) {
