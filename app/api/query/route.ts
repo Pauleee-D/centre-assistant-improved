@@ -1,10 +1,12 @@
 import { NextResponse } from 'next/server';
-import { Index } from '@upstash/vector';
+import { Pinecone } from '@pinecone-database/pinecone';
 import Groq from 'groq-sdk';
+import { CohereClient } from 'cohere-ai';
 
 // Lazy initialization to avoid build-time errors
 let groq: Groq;
-let index: Index;
+let pinecone: Pinecone;
+let cohere: CohereClient;
 
 function getGroq() {
   if (!groq) {
@@ -15,14 +17,22 @@ function getGroq() {
   return groq;
 }
 
-function getIndex() {
-  if (!index) {
-    index = new Index({
-      url: process.env.UPSTASH_VECTOR_REST_URL!,
-      token: process.env.UPSTASH_VECTOR_REST_TOKEN!,
+function getPinecone() {
+  if (!pinecone) {
+    pinecone = new Pinecone({
+      apiKey: process.env.PINECONE_API_KEY!,
     });
   }
-  return index;
+  return pinecone;
+}
+
+function getCohere() {
+  if (!cohere) {
+    cohere = new CohereClient({
+      token: process.env.COHERE_API_KEY!,
+    });
+  }
+  return cohere;
 }
 
 // Simple in-memory rate limiting
@@ -77,23 +87,45 @@ export async function POST(request: Request) {
       );
     }
 
-    // Query vector database
-    const results = await getIndex().query({
-      data: question,
-      topK: 10,
-      includeMetadata: true,
+    // Generate embedding for the question using Cohere
+    const embeddingResponse = await getCohere().embed({
+      texts: [question],
+      model: 'embed-english-v3.0',
+      inputType: 'search_query',
     });
 
-    console.log('All results count:', results?.length || 0);
+    const queryEmbedding = embeddingResponse.embeddings[0];
 
-    // Filter results by centre on the client side since GLOB doesn't work
-    // Include both centre-specific AND general information
-    let filteredResults = results;
+    // Query Pinecone
+    const index = getPinecone().index(process.env.PINECONE_INDEX_NAME!);
+
+    // Build filter for centre if specified
+    const filter = centre && centre !== 'all'
+      ? { centre: { $in: [centre, 'general'] } }
+      : undefined;
+
+    const queryResponse = await index.query({
+      vector: queryEmbedding,
+      topK: 50,
+      includeMetadata: true,
+      filter,
+    });
+
+    console.log('All results count:', queryResponse.matches?.length || 0);
+
+    let filteredResults = queryResponse.matches || [];
+
     if (centre && centre !== 'all') {
-      console.log('First 5 result IDs:', results.slice(0, 5).map((r: any) => r.id));
-      filteredResults = results.filter((r: any) =>
-        r.id?.startsWith(`${centre}-`) || r.id?.startsWith('general-')
-      );
+      console.log('First 5 result IDs:', filteredResults.slice(0, 5).map((r: any) => r.id));
+
+      // Create normalized version of centre name (remove all non-alphanumeric)
+      const normalizedCentre = centre.toLowerCase().replace(/[^a-z0-9]/g, '');
+
+      filteredResults = filteredResults.filter((r: any) => {
+        const id = (r.id || '').toLowerCase();
+        return id.startsWith(normalizedCentre + '-') ||
+               id.startsWith('general-');
+      });
       console.log(`Filtered to ${filteredResults.length} results for ${centre} (including general info)`);
     }
 
@@ -108,23 +140,99 @@ export async function POST(request: Request) {
       });
     }
 
-    // Extract relevant content
+    // Extract relevant content from metadata
     const context = filteredResults
       .map((result: any) => {
-        const metadata = result.metadata || {};
-        const title = metadata.title || 'Information';
-        const content = metadata.content || '';
-        return `${title}: ${content}`;
+        // In Pinecone, the text content is stored in metadata
+        return result.metadata?.text || '';
       })
+      .filter(Boolean)
       .join('\n\n');
 
     // Generate response with Groq
+    const systemPrompt = `You are a helpful leisure centre assistant. Answer questions about facilities, memberships, classes, and policies in a friendly, professional manner. Use the provided context to give accurate, specific answers.
+
+EXAMPLE INTERACTIONS (follow this style and format):
+
+Q: What are the opening hours?
+A: [Centre Name] opening hours:
+- Monday to Friday: 5:00 AM - 9:30 PM
+- Saturday and Sunday: 7:00 AM - 6:30 PM
+
+Note: Pool areas close 15 minutes before facility closing time.
+
+Q: How much is a membership?
+A: [Centre Name] membership options:
+- Full Access: $21.05/week (includes gym, pool, classes)
+- Concession: $18.00/week
+- Gold (Over 50s): $12.70/week
+- Joining fee: $99
+
+All memberships include 3 free personal training consultations.
+
+Q: Do you have a pool?
+A: Yes, [Centre Name] has:
+- Indoor heated pool (year-round)
+- Outdoor pool (seasonal)
+- Family fun pool with ramp access
+
+Would you like to know the pool hours or temperatures?
+
+Q: What classes do you offer?
+A: [Centre Name] offers a wide range of group fitness classes:
+
+Cardio & HIIT:
+- BodyCombat, BodyAttack, HIIT Zone
+
+Mind & Body:
+- Yoga, Pilates, BodyBalance
+
+Strength:
+- BodyPump, Pin-Loaded Circuit
+
+Aqua:
+- Aqua Aerobics (all levels)
+
+Classes are included with Full Access and Health Club memberships. Check our timetable for specific times.
+
+Q: Do you offer childcare?
+A: Yes, [Centre Name] has childcare facilities:
+- Ages: 6 weeks to 5 years
+- Hours: Monday-Friday, 9am-1pm (session times vary)
+- Cost: $4.90 per session
+- Booking required: Call ahead to secure a spot
+
+All staff are first aid trained and have working with children checks.
+
+Q: Can I get a casual visit?
+A: Yes, casual visits are available:
+
+Pool Entry:
+- Adult: $9.00
+- Child (under 18): $6.90
+- Family (2 adults + 2 kids): $27.30
+
+Gym/Classes:
+- Adult: $24.50
+- Concession: $13.00
+
+We also offer 10-visit passes if you plan to visit regularly.
+
+Q: Do you offer concessions?
+A: Yes, concession rates are available for:
+- Seniors Card holders
+- Health Care Card holders
+- Student Card holders
+- DVA Card holders
+
+You'll need to present your valid concession card when signing up or visiting.`;
+
     const completion = await getGroq().chat.completions.create({
       model: 'llama-3.1-8b-instant',
       messages: [
         {
           role: 'system',
-          content: 'You are a helpful leisure centre assistant. Answer questions about facilities, memberships, classes, and policies in a friendly, professional manner.',
+          content: systemPrompt,
         },
         {
           role: 'user',
@@ -139,7 +247,10 @@ export async function POST(request: Request) {
 
     return NextResponse.json({
       answer,
-      sources: filteredResults.map((r: any) => r.metadata?.title).filter(Boolean),
+      sources: filteredResults.map((r: any) => {
+        const meta = r.metadata || {};
+        return meta.centre && meta.category ? `${meta.centre} - ${meta.category}` : null;
+      }).filter(Boolean),
     });
   } catch (error) {
     console.error('Error processing query:', error);

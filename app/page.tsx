@@ -3,6 +3,7 @@
 import { useState, useMemo } from 'react';
 import centresData from '../data/centres-list.json';
 import { ThemeToggle } from '@/components/theme-toggle';
+import { FormattedAnswer } from '@/components/FormattedAnswer';
 
 // Mapping of centre IDs to their website URLs
 const centreWebsites: Record<string, string> = {
@@ -13,58 +14,58 @@ const centreWebsites: Record<string, string> = {
   bright: 'https://www.brightsportscentre.com.au/',
   bundaberg: 'https://bundabergaquaticcentre.com.au/',
   burpengary: 'https://www.burpengaryralc.com.au/',
-  canberraolympicpcw: 'https://www.canberraolympicpool.com.au/',
+  canberraolympicpool: 'https://www.canberraolympicpool.com.au/',
   chinchilla: 'https://chinchillaaquaticandfitnesscentre.com.au/',
   civicreserve: 'https://www.civicreccentre.com.au/',
-  dalby: 'https://dalbyaquaticcentre.com.au/',
+  dalbyaquaticcentre: 'https://dalbyaquaticcentre.com.au/',
   dannyfrawley: 'https://www.dannyfrawleycentre.com.au/',
-  dicksonpoolsseasonal: 'https://www.dicksonpool.com.au/',
-  eastfremantlebactive: 'https://bactiveeastfremantle.com.au/',
+  dicksonpools: 'https://www.dicksonpool.com.au/',
+  eastfremantle: 'https://bactiveeastfremantle.com.au/',
   erindale: 'https://erindaleleisurecentre.com.au/',
-  fernyhillswimmingpcw: 'https://www.fernyhillspool.com.au/',
-  greatlakesleisurecentre: 'https://greatlakesalc.com.au/',
-  gungahlinleisurecentre: 'https://www.gungahlinleisurecentre.com.au/',
-  gurriwanyarrawellbeingcentre: 'https://www.gurriwanyarrawc.com.au/',
-  gympieaquaticcentre: 'https://www.gympiearc.com.au/',
-  jackhortmemorialpool: 'https://www.jackhortmcp.com.au/',
+  fernyhillswimmingpool: 'https://www.fernyhillspool.com.au/',
+  greatlakes: 'https://greatlakesalc.com.au/',
+  gungahlin: 'https://www.gungahlinleisurecentre.com.au/',
+  gurriwanyarra: 'https://www.gurriwanyarrawc.com.au/',
+  gympie: 'https://www.gympiearc.com.au/',
+  jackhort: 'https://www.jackhortmcp.com.au/',
   keiloreastleisurecentre: 'https://www.movemv.com.au/keilor-east-leisure-centre/',
   knoxleisureworks: 'https://www.knoxleisureworks.com.au/',
-  kurrikurriaquaticandfitnesscentre: 'https://www.kurrikurriafc.com.au/',
-  lakesideleisurecentre: 'https://www.lakesideleisure.com.au/',
-  loftusreccentre: 'https://www.loftusrecreationcentre.com.au/',
+  kurrikurri: 'https://www.kurrikurriafc.com.au/',
+  lakeside: 'https://www.lakesideleisure.com.au/',
+  loftus: 'https://www.loftusrecreationcentre.com.au/',
   manningmidcoasttaree: 'https://www.manningmidcoast.com.au/',
   mansfieldswimmingpool: 'https://www.mansfieldswimmingpool.com.au/',
-  michaelclarkereccentre: 'https://www.michaelclarkecentre.com.au/',
-  michaelwendenaquaticleisure: 'https://www.wendenpool.com.au/',
-  millparkleisure: 'https://www.millparkleisure.com.au/',
-  monbulkaquaticcentre: 'https://www.monbulkaquatic.com.au/',
-  moreeartisanaquatic: 'https://www.moreeartesianaquaticcentre.com.au/',
-  pelicanparkreccentre: 'https://www.pelicanparkrec.com.au/',
-  portlandleisureandaquatic: 'https://www.portlandleisurecentre.com.au/',
+  michaelclarke: 'https://www.michaelclarkecentre.com.au/',
+  michaelwenden: 'https://www.wendenpool.com.au/',
+  millpark: 'https://www.millparkleisure.com.au/',
+  monbulk: 'https://www.monbulkaquatic.com.au/',
+  moree: 'https://www.moreeartesianaquaticcentre.com.au/',
+  pelicanpark: 'https://www.pelicanparkrec.com.au/',
+  portland: 'https://www.portlandleisurecentre.com.au/',
   queensparkpool: 'https://www.movemv.com.au/queens-park-swimming-pool/',
-  swellpalmersonpool: 'https://www.swellpalmerston.com.au/',
-  swirlsmithton: 'https://www.swirltas.com.au/',
-  singletonswimandgym: 'https://www.singletongymswim.com.au/',
-  somervillereccentre: 'https://www.somervillerecreationcentre.com.au/',
+  swell: 'https://www.swellpalmerston.com.au/',
+  swirl: 'https://www.swirltas.com.au/',
+  singleton: 'https://www.singletongymswim.com.au/',
+  somerville: 'https://www.somervillerecreationcentre.com.au/',
   splashdevonport: 'https://www.splashdevonport.com.au/',
-  stromloleisurecentre: 'https://www.stromloleisurecentre.com.au/',
+  stromlo: 'https://www.stromloleisurecentre.com.au/',
   summit: 'https://summitaquaticleisure.com.au/',
   swanhill: 'https://www.swanhilllc.com.au/',
-  tracthomastownreccentre: 'https://www.trac.com.au/',
+  trac: 'https://www.trac.com.au/',
   tehiku: 'https://tehikusportshub.co.nz/',
-  tomareeseasonal: 'https://www.tomareeac.com.au/',
+  tomaree: 'https://www.tomareeac.com.au/',
   watermarc: 'https://www.watermarcbanyule.com.au/',
-  whittleseaswimcentreseasonal: 'https://www.watermarcbanyule.com.au/',
+  whittleseaswimcentre: 'https://www.watermarcbanyule.com.au/',
   whitlamleisurecentre: 'https://www.whitlamleisurecentre.com.au/',
   wollondilly: 'https://www.wclc.com.au/',
-  wulandarecandconcentre: 'https://www.wulanda.com.au/',
+  wulanda: 'https://www.wulanda.com.au/',
   yawa: 'https://www.yawa.com.au/',
-  yarracentre: 'https://www.yarracentre.com.au/',
+  yarra: 'https://www.yarracentre.com.au/',
   yarrambatparkgolfcourse: 'https://www.yarrambatparkgolf.com.au/',
   higherstatemelbairport: 'https://www.higherstate.com.au/',
   inverellaquaticcentre: 'https://www.inverellaquatic.com.au/',
   centrepointblayney: 'http://www.centrepointblayney.com.au/',
-  robinvalerecandaquaticseasonal: 'https://www.robinvalerac.com.au/',
+  robinvale: 'https://www.robinvalerac.com.au/',
 };
 
 export default function Home() {
@@ -73,6 +74,8 @@ export default function Home() {
   const [loading, setLoading] = useState(false);
   const [selectedState, setSelectedState] = useState('all');
   const [selectedCentre, setSelectedCentre] = useState('all');
+  const [feedbackGiven, setFeedbackGiven] = useState(false);
+  const [feedbackRating, setFeedbackRating] = useState<'positive' | 'negative' | null>(null);
 
   // Get unique states from centres data
   const states = useMemo(() => {
@@ -105,6 +108,8 @@ export default function Home() {
     e.preventDefault();
     setLoading(true);
     setAnswer('');
+    setFeedbackGiven(false);
+    setFeedbackRating(null);
 
     try {
       const response = await fetch('/api/query', {
@@ -119,6 +124,28 @@ export default function Home() {
       setAnswer('Error: Failed to get response');
     } finally {
       setLoading(false);
+    }
+  };
+
+  const handleFeedback = async (rating: 'positive' | 'negative') => {
+    if (feedbackGiven) return;
+
+    setFeedbackRating(rating);
+    setFeedbackGiven(true);
+
+    try {
+      await fetch('/api/feedback', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          question,
+          answer,
+          rating,
+          system: 'original',
+        }),
+      });
+    } catch (error) {
+      console.error('Failed to submit feedback:', error);
     }
   };
 
@@ -223,7 +250,38 @@ export default function Home() {
       {answer && (
         <div className="mt-8 p-6 bg-gray-100 dark:bg-gray-800 rounded-lg border dark:border-gray-700">
           <h2 className="text-xl font-semibold mb-2 text-black dark:text-white">Answer:</h2>
-          <p className="text-gray-800 dark:text-gray-200">{answer}</p>
+          <FormattedAnswer answer={answer} />
+
+          <div className="mt-4 pt-4 border-t border-gray-300 dark:border-gray-600">
+            <p className="text-sm text-gray-600 dark:text-gray-400 mb-2">Was this answer helpful?</p>
+            <div className="flex gap-2">
+              <button
+                onClick={() => handleFeedback('positive')}
+                disabled={feedbackGiven}
+                className={`px-4 py-2 rounded-lg transition-colors ${
+                  feedbackRating === 'positive'
+                    ? 'bg-green-600 text-white'
+                    : 'bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-green-100 dark:hover:bg-green-900'
+                } ${feedbackGiven ? 'cursor-not-allowed opacity-50' : 'cursor-pointer'}`}
+              >
+                👍 Helpful
+              </button>
+              <button
+                onClick={() => handleFeedback('negative')}
+                disabled={feedbackGiven}
+                className={`px-4 py-2 rounded-lg transition-colors ${
+                  feedbackRating === 'negative'
+                    ? 'bg-red-600 text-white'
+                    : 'bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-red-100 dark:hover:bg-red-900'
+                } ${feedbackGiven ? 'cursor-not-allowed opacity-50' : 'cursor-pointer'}`}
+              >
+                👎 Not Helpful
+              </button>
+            </div>
+            {feedbackGiven && (
+              <p className="mt-2 text-sm text-green-600 dark:text-green-400">Thank you for your feedback!</p>
+            )}
+          </div>
         </div>
       )}
     </main>
