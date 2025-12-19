@@ -8,6 +8,7 @@
     "start": "next start -p 3001",
     "lint": "eslint",
     "add-knowledge": "tsx scripts/add-knowledge.ts",
+    "add-knowledge-improved": "tsx scripts/improved-chunking.ts",
     "generate-centres": "tsx scripts/generate-centres.ts",
     "convert-tailored": "tsx scripts/convert-tailored-to-markdown.ts"
   },

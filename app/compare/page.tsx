@@ -3,6 +3,7 @@
 import { useState } from 'react';
 import { ThemeToggle } from '@/components/theme-toggle';
 import { FormattedAnswer } from '@/components/FormattedAnswer';
+import { FeedbackButtons } from '@/components/FeedbackButtons';
 
 export default function ComparePage() {
   const [question, setQuestion] = useState('');
@@ -16,6 +17,7 @@ export default function ComparePage() {
   // Improved RAG results
   const [improvedAnswer, setImprovedAnswer] = useState('');
   const [improvedSources, setImprovedSources] = useState<string[]>([]);
+  const [improvedCitations, setImprovedCitations] = useState<any[]>([]);
   const [improvedTime, setImprovedTime] = useState(0);
   const [improvedDebug, setImprovedDebug] = useState<any>(null);
 
@@ -28,6 +30,7 @@ export default function ComparePage() {
     setImprovedAnswer('');
     setOriginalSources([]);
     setImprovedSources([]);
+    setImprovedCitations([]);
     setImprovedDebug(null);
 
     try {
@@ -71,6 +74,7 @@ export default function ComparePage() {
 
       setImprovedAnswer(improvedResponse.answer || 'No answer received');
       setImprovedSources(improvedResponse.sources || []);
+      setImprovedCitations(improvedResponse.citations || []);
       setImprovedDebug(improvedResponse.debug || null);
     } catch (error) {
       console.error('Error:', error);
@@ -156,6 +160,14 @@ export default function ComparePage() {
                       </ul>
                     </div>
                   )}
+
+                  <div className="mt-4 pt-4 border-t">
+                    <FeedbackButtons
+                      question={question}
+                      answer={originalAnswer}
+                      system="original"
+                    />
+                  </div>
                 </>
               )}
             </div>
@@ -214,6 +226,32 @@ export default function ComparePage() {
                       </ul>
                     </div>
                   )}
+
+                  {improvedCitations.length > 0 && (
+                    <div className="mt-4">
+                      <h3 className="font-semibold mb-2">Citations:</h3>
+                      <div className="space-y-2">
+                        {improvedCitations.map((citation, idx) => (
+                          <div key={idx} className="p-3 bg-muted/50 rounded border-l-2 border-blue-500">
+                            <div className="text-xs font-semibold text-blue-600 mb-1">
+                              {citation.source}
+                            </div>
+                            <div className="text-xs text-muted-foreground italic">
+                              "{citation.quote}"
+                            </div>
+                          </div>
+                        ))}
+                      </div>
+                    </div>
+                  )}
+
+                  <div className="mt-4 pt-4 border-t">
+                    <FeedbackButtons
+                      question={question}
+                      answer={improvedAnswer}
+                      system="improved"
+                    />
+                  </div>
                 </>
               )}
             </div>

@@ -207,9 +207,27 @@ export async function POST(request: Request) {
 
     const answer = completion.choices[0]?.message?.content || 'No response generated';
 
+    // Step 7: Extract relevant citations (quotes from source documents)
+    const citations = rerankedResults.map((result: any, index: number) => {
+      const content = result.metadata?.content || '';
+      const title = result.metadata?.title || `Source ${index + 1}`;
+
+      // Extract a relevant snippet (first 150 characters of content)
+      const snippet = content.length > 150
+        ? content.substring(0, 150).trim() + '...'
+        : content;
+
+      return {
+        source: title,
+        quote: snippet,
+        relevance: result.score || 0,
+      };
+    });
+
     return NextResponse.json({
       answer,
       sources: rerankedResults.map((r: any) => r.metadata?.title).filter(Boolean),
+      citations, // NEW: Include specific quotes from sources
       debug: {
         queryExpansion: expandedQueries.length > 1,
         reranking: !!process.env.COHERE_API_KEY,
