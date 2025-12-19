@@ -40,9 +40,44 @@ function checkRateLimit(ip: string): boolean {
   return true;
 }
 
+// Enhance query with temporal context
+function enhanceTemporalQuery(query: string): string {
+  const lowerQuery = query.toLowerCase();
+
+  // Get current day and time info
+  const now = new Date();
+  const days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+  const currentDay = days[now.getDay()];
+
+  // Check for temporal keywords
+  const hasToday = /\b(today|now|currently|right now|at the moment)\b/i.test(query);
+  const hasTomorrow = /\btomorrow\b/i.test(query);
+  const hasOpeningHours = /\b(opening hours?|open|hours?|when.*open|what time.*open)\b/i.test(query);
+
+  let enhancedQuery = query;
+
+  // If asking about "today" or "now" with opening hours, add the day name
+  if (hasToday && hasOpeningHours) {
+    enhancedQuery = `${query} ${currentDay}`;
+    console.log(`📅 Enhanced temporal query: "${query}" → "${enhancedQuery}"`);
+  }
+
+  // If asking about "tomorrow", add tomorrow's day name
+  if (hasTomorrow && hasOpeningHours) {
+    const tomorrowDay = days[(now.getDay() + 1) % 7];
+    enhancedQuery = `${query} ${tomorrowDay}`;
+    console.log(`📅 Enhanced temporal query: "${query}" → "${enhancedQuery}"`);
+  }
+
+  return enhancedQuery;
+}
+
 // Query expansion using LLM
 async function expandQuery(originalQuery: string): Promise<string[]> {
   try {
+    // First, enhance with temporal context
+    const enhancedQuery = enhanceTemporalQuery(originalQuery);
+
     const completion = await groq.chat.completions.create({
       model: 'llama-3.1-8b-instant',
       messages: [
@@ -52,7 +87,7 @@ async function expandQuery(originalQuery: string): Promise<string[]> {
         },
         {
           role: 'user',
-          content: originalQuery,
+          content: enhancedQuery,
         },
       ],
       temperature: 0.7,
@@ -64,7 +99,7 @@ async function expandQuery(originalQuery: string): Promise<string[]> {
       .filter((line) => line.trim().length > 0)
       .slice(0, 2) || [];
 
-    return [originalQuery, ...alternatives];
+    return [enhancedQuery, ...alternatives];
   } catch (error) {
     console.error('Query expansion error:', error);
     return [originalQuery];
@@ -189,12 +224,20 @@ export async function POST(request: Request) {
       .join('\n\n');
 
     // Step 6: Generate response with Groq
+    // Add current day context for temporal queries
+    const now = new Date();
+    const days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+    const currentDay = days[now.getDay()];
+    const isWeekend = now.getDay() === 0 || now.getDay() === 6;
+
     const completion = await groq.chat.completions.create({
       model: 'llama-3.1-8b-instant',
       messages: [
         {
           role: 'system',
-          content: 'You are a helpful leisure centre assistant. Answer questions about facilities, memberships, classes, and policies in a friendly, professional manner. Use the provided context to give accurate, specific answers.',
+          content: `You are a helpful leisure centre assistant. Answer questions about facilities, memberships, classes, and policies in a friendly, professional manner. Use the provided context to give accurate, specific answers.
+
+Current context: Today is ${currentDay}${isWeekend ? ' (weekend)' : ' (weekday)'}. When users ask about "today", refer to ${currentDay} specifically.`,
         },
         {
           role: 'user',
