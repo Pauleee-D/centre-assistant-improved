@@ -40,43 +40,43 @@ function checkRateLimit(ip: string): boolean {
   return true;
 }
 
-// Enhance query with temporal context
-function enhanceTemporalQuery(query: string): string {
-  const lowerQuery = query.toLowerCase();
-
-  // Get current day and time info
+// Detect temporal context in query
+function detectTemporalContext(query: string): { day: string | null; isTomorrow: boolean } {
   const now = new Date();
   const days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
-  const currentDay = days[now.getDay()];
 
-  // Check for temporal keywords
   const hasToday = /\b(today|now|currently|right now|at the moment)\b/i.test(query);
   const hasTomorrow = /\btomorrow\b/i.test(query);
-  const hasOpeningHours = /\b(opening hours?|open|hours?|when.*open|what time.*open)\b/i.test(query);
 
-  let enhancedQuery = query;
-
-  // If asking about "today" or "now" with opening hours, add the day name
-  if (hasToday && hasOpeningHours) {
-    enhancedQuery = `${query} ${currentDay}`;
-    console.log(`📅 Enhanced temporal query: "${query}" → "${enhancedQuery}"`);
+  if (hasToday) {
+    return { day: days[now.getDay()], isTomorrow: false };
   }
 
-  // If asking about "tomorrow", add tomorrow's day name
-  if (hasTomorrow && hasOpeningHours) {
-    const tomorrowDay = days[(now.getDay() + 1) % 7];
-    enhancedQuery = `${query} ${tomorrowDay}`;
-    console.log(`📅 Enhanced temporal query: "${query}" → "${enhancedQuery}"`);
+  if (hasTomorrow) {
+    return { day: days[(now.getDay() + 1) % 7], isTomorrow: true };
   }
 
-  return enhancedQuery;
+  return { day: null, isTomorrow: false };
+}
+
+// Normalize temporal query for better retrieval
+function normalizeTemporalQuery(query: string): string {
+  // Remove temporal keywords for better vector search
+  // "opening hours today" → "opening hours"
+  // This prevents diluting the search with day-specific terms
+  return query
+    .replace(/\b(today|now|currently|right now|at the moment)\b/gi, '')
+    .replace(/\btomorrow\b/gi, '')
+    .trim()
+    .replace(/\s+/g, ' '); // normalize whitespace
 }
 
 // Query expansion using LLM
 async function expandQuery(originalQuery: string): Promise<string[]> {
   try {
-    // First, enhance with temporal context
-    const enhancedQuery = enhanceTemporalQuery(originalQuery);
+    // Normalize query by removing temporal keywords for better retrieval
+    const normalizedQuery = normalizeTemporalQuery(originalQuery);
+    console.log(`📅 Normalized query: "${originalQuery}" → "${normalizedQuery}"`);
 
     const completion = await groq.chat.completions.create({
       model: 'llama-3.1-8b-instant',
@@ -87,7 +87,7 @@ async function expandQuery(originalQuery: string): Promise<string[]> {
         },
         {
           role: 'user',
-          content: enhancedQuery,
+          content: normalizedQuery,
         },
       ],
       temperature: 0.7,
@@ -99,7 +99,7 @@ async function expandQuery(originalQuery: string): Promise<string[]> {
       .filter((line) => line.trim().length > 0)
       .slice(0, 2) || [];
 
-    return [enhancedQuery, ...alternatives];
+    return [normalizedQuery, ...alternatives];
   } catch (error) {
     console.error('Query expansion error:', error);
     return [originalQuery];
@@ -135,7 +135,13 @@ export async function POST(request: Request) {
 
     console.log('📝 Original query:', question);
 
-    // Step 1: Query Expansion
+    // Step 1: Detect temporal context
+    const temporalContext = detectTemporalContext(question);
+    if (temporalContext.day) {
+      console.log(`📅 Detected temporal context: ${temporalContext.isTomorrow ? 'tomorrow' : 'today'} = ${temporalContext.day}`);
+    }
+
+    // Step 2: Query Expansion (with normalized query for better retrieval)
     const expandedQueries = await expandQuery(question);
     console.log('🔍 Expanded queries:', expandedQueries);
 
@@ -224,20 +230,27 @@ export async function POST(request: Request) {
       .join('\n\n');
 
     // Step 6: Generate response with Groq
-    // Add current day context for temporal queries
+    // Build system prompt with temporal context
     const now = new Date();
     const days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
     const currentDay = days[now.getDay()];
     const isWeekend = now.getDay() === 0 || now.getDay() === 6;
+
+    let systemPrompt = 'You are a helpful leisure centre assistant. Answer questions about facilities, memberships, classes, and policies in a friendly, professional manner. Use the provided context to give accurate, specific answers.';
+
+    // Add temporal context if detected
+    if (temporalContext.day) {
+      systemPrompt += `\n\nIMPORTANT: The user is asking about ${temporalContext.isTomorrow ? 'TOMORROW' : 'TODAY'}. Today is ${currentDay}, so ${temporalContext.isTomorrow ? 'tomorrow' : 'today'} is ${temporalContext.day}${temporalContext.day === 'Saturday' || temporalContext.day === 'Sunday' ? ' (weekend)' : ' (weekday)'}. When answering about opening hours or schedules, provide information specific to ${temporalContext.day}.`;
+    } else {
+      systemPrompt += `\n\nCurrent context: Today is ${currentDay}${isWeekend ? ' (weekend)' : ' (weekday)'}.`;
+    }
 
     const completion = await groq.chat.completions.create({
       model: 'llama-3.1-8b-instant',
       messages: [
         {
           role: 'system',
-          content: `You are a helpful leisure centre assistant. Answer questions about facilities, memberships, classes, and policies in a friendly, professional manner. Use the provided context to give accurate, specific answers.
-
-Current context: Today is ${currentDay}${isWeekend ? ' (weekend)' : ' (weekday)'}. When users ask about "today", refer to ${currentDay} specifically.`,
+          content: systemPrompt,
         },
         {
           role: 'user',
