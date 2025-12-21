@@ -1,0 +1,48 @@
+{
+  "centre_id": "singleton",
+  "base_url": "https://www.singletongymswim.com.au/",
+  "pages": [
+    {
+      "url": "https://www.singletongymswim.com.au/",
+      "length": 9937
+    },
+    {
+      "url": "https://www.singletongymswim.com.au/learn-to-swim/free-assessment",
+      "length": 5459
+    },
+    {
+      "url": "https://www.singletongymswim.com.au/join/free-1-day-trial",
+      "length": 5361
+    },
+    {
+      "url": "https://www.singletongymswim.com.au/contact-us/get-in-touch",
+      "length": 5321
+    },
+    {
+      "url": "https://www.singletongymswim.com.au/landing-pages/blog-news",
+      "length": 4044
+    },
+    {
+      "url": "https://www.singletongymswim.com.au/learn-to-swim/junior-dolphins",
+      "length": 6134
+    },
+    {
+      "url": "https://www.singletongymswim.com.au/swim/aqua-aerobics",
+      "length": 5886
+    },
+    {
+      "url": "https://www.singletongymswim.com.au/swim/aquatic-facilities",
+      "length": 7096
+    },
+    {
+      "url": "https://www.singletongymswim.com.au/footer-links/memberships-passes",
+      "length": 6491
+    },
+    {
+      "url": "https://www.singletongymswim.com.au/train/member-benefits",
+      "length": 6589
+    }
+  ],
+  "total_pages": 10,
+  "total_chars": 62318
+}

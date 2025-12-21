@@ -1,0 +1,32 @@
+{
+  "centre_id": "queensparkpool",
+  "base_url": "https://www.movemv.com.au/queens-park-swimming-pool/",
+  "pages": [
+    {
+      "url": "https://www.movemv.com.au/queens-park-swimming-pool/",
+      "length": 2521
+    },
+    {
+      "url": "https://www.movemv.com.au/swim",
+      "length": 4584
+    },
+    {
+      "url": "https://www.movemv.com.au/swim/",
+      "length": 4584
+    },
+    {
+      "url": "https://www.movemv.com.au/venue/active-world/",
+      "length": 2841
+    },
+    {
+      "url": "https://www.movemv.com.au/contact/get-in-touch",
+      "length": 4586
+    },
+    {
+      "url": "https://www.movemv.com.au/join/memberships/",
+      "length": 10827
+    }
+  ],
+  "total_pages": 6,
+  "total_chars": 29943
+}

@@ -1,0 +1,48 @@
+{
+  "centre_id": "mansfieldswimmingpool",
+  "base_url": "https://www.mansfieldswimmingpool.com.au/",
+  "pages": [
+    {
+      "url": "https://www.mansfieldswimmingpool.com.au/",
+      "length": 6416
+    },
+    {
+      "url": "https://www.mansfieldswimmingpool.com.au/contact-us/make-a-booking",
+      "length": 3379
+    },
+    {
+      "url": "https://www.mansfieldswimmingpool.com.au/news/swimming-carnival-safety-\u2013-the-power-of-practice",
+      "length": 4515
+    },
+    {
+      "url": "https://www.mansfieldswimmingpool.com.au/venue/kiosk-merchandise",
+      "length": 2835
+    },
+    {
+      "url": "https://www.mansfieldswimmingpool.com.au/news/keeping-children-water-safe-at-home-and-the-farm",
+      "length": 5334
+    },
+    {
+      "url": "https://www.mansfieldswimmingpool.com.au/contact-us/get-in-touch",
+      "length": 3824
+    },
+    {
+      "url": "https://www.mansfieldswimmingpool.com.au/swim/aquatic-facilities",
+      "length": 2858
+    },
+    {
+      "url": "https://www.mansfieldswimmingpool.com.au/join/memberships-passes",
+      "length": 4157
+    },
+    {
+      "url": "https://www.mansfieldswimmingpool.com.au/footer-links/accessibility",
+      "length": 2853
+    },
+    {
+      "url": "https://www.mansfieldswimmingpool.com.au/learn-to-swim/goswim-seasonal-swimming-lessons",
+      "length": 5318
+    }
+  ],
+  "total_pages": 10,
+  "total_chars": 41489
+}

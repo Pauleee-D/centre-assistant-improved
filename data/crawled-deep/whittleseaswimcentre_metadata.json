@@ -1,0 +1,48 @@
+{
+  "centre_id": "whittleseaswimcentre",
+  "base_url": "https://www.watermarcbanyule.com.au/",
+  "pages": [
+    {
+      "url": "https://www.watermarcbanyule.com.au/",
+      "length": 4482
+    },
+    {
+      "url": "https://www.watermarcbanyule.com.au/swim/",
+      "length": 2605
+    },
+    {
+      "url": "https://www.watermarcbanyule.com.au/wp-content/uploads/sites/86/2025/12/Merry-Xmas.jpg",
+      "length": 439043
+    },
+    {
+      "url": "https://www.watermarcbanyule.com.au/gym/reformer-pilates/",
+      "length": 6591
+    },
+    {
+      "url": "https://www.watermarcbanyule.com.au/venue/about-us/",
+      "length": 3952
+    },
+    {
+      "url": "https://www.watermarcbanyule.com.au/learn-to-swim/goswim-swimming-lessons/",
+      "length": 10204
+    },
+    {
+      "url": "https://www.watermarcbanyule.com.au/wp-content/uploads/sites/86/2025/05/image-16-1.png",
+      "length": 176756
+    },
+    {
+      "url": "https://www.watermarcbanyule.com.au/venue/opening-hours/",
+      "length": 2895
+    },
+    {
+      "url": "https://www.watermarcbanyule.com.au/gym/",
+      "length": 1917
+    },
+    {
+      "url": "https://www.watermarcbanyule.com.au/join/memberships/",
+      "length": 2869
+    }
+  ],
+  "total_pages": 10,
+  "total_chars": 651314
+}

@@ -1,0 +1,48 @@
+{
+  "centre_id": "gurriwanyarra",
+  "base_url": "https://www.gurriwanyarrawc.com.au/",
+  "pages": [
+    {
+      "url": "https://www.gurriwanyarrawc.com.au/",
+      "length": 10717
+    },
+    {
+      "url": "https://www.gurriwanyarrawc.com.au/contact-us/active-world-(1)",
+      "length": 11551
+    },
+    {
+      "url": "https://www.gurriwanyarrawc.com.au/join/memberships-passes",
+      "length": 8360
+    },
+    {
+      "url": "https://www.gurriwanyarrawc.com.au/join/insurancerehab",
+      "length": 8317
+    },
+    {
+      "url": "https://www.gurriwanyarrawc.com.au/train/fitness-facilities",
+      "length": 5833
+    },
+    {
+      "url": "https://www.gurriwanyarrawc.com.au/join/free-trial",
+      "length": 4166
+    },
+    {
+      "url": "https://www.gurriwanyarrawc.com.au/swim/aqua-aerobics",
+      "length": 5805
+    },
+    {
+      "url": "https://www.gurriwanyarrawc.com.au/contact-us/manage-membership-(1)",
+      "length": 7022
+    },
+    {
+      "url": "https://www.gurriwanyarrawc.com.au/train/group-fitness-classes",
+      "length": 11759
+    },
+    {
+      "url": "https://www.gurriwanyarrawc.com.au/train/reformer-pilates",
+      "length": 5333
+    }
+  ],
+  "total_pages": 10,
+  "total_chars": 78863
+}

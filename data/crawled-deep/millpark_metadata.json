@@ -1,0 +1,48 @@
+{
+  "centre_id": "millpark",
+  "base_url": "https://www.millparkleisure.com.au/",
+  "pages": [
+    {
+      "url": "https://www.millparkleisure.com.au/",
+      "length": 4536
+    },
+    {
+      "url": "https://www.millparkleisure.com.au/venue/about-us/",
+      "length": 3677
+    },
+    {
+      "url": "https://www.millparkleisure.com.au/join/memberships/",
+      "length": 7836
+    },
+    {
+      "url": "https://www.millparkleisure.com.au/gym/",
+      "length": 2683
+    },
+    {
+      "url": "https://www.millparkleisure.com.au/learn-to-swim/goswim-swimming-lessons/",
+      "length": 9958
+    },
+    {
+      "url": "https://www.millparkleisure.com.au/swim/",
+      "length": 2109
+    },
+    {
+      "url": "https://www.millparkleisure.com.au/contact/employment/",
+      "length": 2083
+    },
+    {
+      "url": "https://www.millparkleisure.com.au/venue/opening-hours/",
+      "length": 2284
+    },
+    {
+      "url": "https://www.millparkleisure.com.au/summer-holiday-programs/",
+      "length": 5111
+    },
+    {
+      "url": "https://www.millparkleisure.com.au/gym/group-exercise/",
+      "length": 10612
+    }
+  ],
+  "total_pages": 10,
+  "total_chars": 50889
+}

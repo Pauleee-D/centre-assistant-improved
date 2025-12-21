@@ -1,0 +1,48 @@
+{
+  "centre_id": "somerville",
+  "base_url": "https://www.somervillerecreationcentre.com.au/",
+  "pages": [
+    {
+      "url": "https://www.somervillerecreationcentre.com.au/",
+      "length": 8207
+    },
+    {
+      "url": "https://www.somervillerecreationcentre.com.au/join/free-1-day-trial",
+      "length": 4815
+    },
+    {
+      "url": "https://www.somervillerecreationcentre.com.au/footer-links/memberships-passes",
+      "length": 8456
+    },
+    {
+      "url": "https://www.somervillerecreationcentre.com.au/venue/opening-hours",
+      "length": 4907
+    },
+    {
+      "url": "https://www.somervillerecreationcentre.com.au/play/school-holiday-activities",
+      "length": 4146
+    },
+    {
+      "url": "https://www.somervillerecreationcentre.com.au/contact-us/location",
+      "length": 4515
+    },
+    {
+      "url": "https://www.somervillerecreationcentre.com.au/join/memberships-passes",
+      "length": 8456
+    },
+    {
+      "url": "https://www.somervillerecreationcentre.com.au/contact-us/careers",
+      "length": 4623
+    },
+    {
+      "url": "https://www.somervillerecreationcentre.com.au/train/memberships-passes",
+      "length": 8456
+    },
+    {
+      "url": "https://www.somervillerecreationcentre.com.au/contact-us/visit-our-other-centres",
+      "length": 4206
+    }
+  ],
+  "total_pages": 10,
+  "total_chars": 60787
+}

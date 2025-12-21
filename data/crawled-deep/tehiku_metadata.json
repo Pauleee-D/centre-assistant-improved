@@ -1,0 +1,20 @@
+{
+  "centre_id": "tehiku",
+  "base_url": "https://tehikusportshub.co.nz/",
+  "pages": [
+    {
+      "url": "https://tehikusportshub.co.nz/",
+      "length": 3388
+    },
+    {
+      "url": "https://tehikusportshub.co.nz/membership/",
+      "length": 2094
+    },
+    {
+      "url": "https://tehikusportshub.co.nz/about/",
+      "length": 2576
+    }
+  ],
+  "total_pages": 3,
+  "total_chars": 8058
+}

@@ -1,0 +1,36 @@
+{
+  "centre_id": "knoxleisureworks",
+  "base_url": "https://www.knoxleisureworks.com.au/",
+  "pages": [
+    {
+      "url": "https://www.knoxleisureworks.com.au/",
+      "length": 4250
+    },
+    {
+      "url": "https://www.knoxleisureworks.com.au/venue/opening-hours",
+      "length": 823
+    },
+    {
+      "url": "https://www.knoxleisureworks.com.au/venue/about-us/",
+      "length": 3848
+    },
+    {
+      "url": "https://www.knoxleisureworks.com.au/gym/",
+      "length": 2211
+    },
+    {
+      "url": "https://www.knoxleisureworks.com.au/join/memberships/",
+      "length": 5124
+    },
+    {
+      "url": "https://www.knoxleisureworks.com.au/learn-to-swim/goswim-swimming-lessons/",
+      "length": 9911
+    },
+    {
+      "url": "https://www.knoxleisureworks.com.au/swim/",
+      "length": 2101
+    }
+  ],
+  "total_pages": 7,
+  "total_chars": 28268
+}

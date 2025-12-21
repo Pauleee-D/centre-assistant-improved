@@ -1,0 +1,48 @@
+{
+  "centre_id": "robinvale",
+  "base_url": "https://www.robinvalerac.com.au/",
+  "pages": [
+    {
+      "url": "https://www.robinvalerac.com.au/",
+      "length": 7785
+    },
+    {
+      "url": "https://www.robinvalerac.com.au/swim/memberships-passes",
+      "length": 4780
+    },
+    {
+      "url": "https://www.robinvalerac.com.au/learn-to-swim/children",
+      "length": 7177
+    },
+    {
+      "url": "https://www.robinvalerac.com.au/venue/facilities",
+      "length": 4962
+    },
+    {
+      "url": "https://www.robinvalerac.com.au/footer-links/memberships-passes",
+      "length": 4780
+    },
+    {
+      "url": "https://www.robinvalerac.com.au/learn-to-swim/school-programs",
+      "length": 5637
+    },
+    {
+      "url": "https://www.robinvalerac.com.au/join/memberships-passes",
+      "length": 4780
+    },
+    {
+      "url": "https://www.robinvalerac.com.au/swim/aquatic-facilities",
+      "length": 4282
+    },
+    {
+      "url": "https://www.robinvalerac.com.au/venue/24-7-access",
+      "length": 4652
+    },
+    {
+      "url": "https://www.robinvalerac.com.au/learn-to-swim/enrolment",
+      "length": 4503
+    }
+  ],
+  "total_pages": 10,
+  "total_chars": 53338
+}

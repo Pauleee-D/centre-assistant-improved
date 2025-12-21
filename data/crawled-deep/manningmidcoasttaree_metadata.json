@@ -1,0 +1,36 @@
+{
+  "centre_id": "manningmidcoasttaree",
+  "base_url": "https://manningalc.com.au/",
+  "pages": [
+    {
+      "url": "https://manningalc.com.au/",
+      "length": 3281
+    },
+    {
+      "url": "https://manningalc.com.au/gym/gym-facilities/",
+      "length": 2000
+    },
+    {
+      "url": "https://manningalc.com.au/venue/about-us/",
+      "length": 1297
+    },
+    {
+      "url": "https://manningalc.com.au/swim/goswim/",
+      "length": 2802
+    },
+    {
+      "url": "https://manningalc.com.au/join/memberships/",
+      "length": 1196
+    },
+    {
+      "url": "https://manningalc.com.au/swim/aquatic-facilities/",
+      "length": 2322
+    },
+    {
+      "url": "https://manningalc.com.au/the-risks-of-swimming-alone/",
+      "length": 5823
+    }
+  ],
+  "total_pages": 7,
+  "total_chars": 18721
+}

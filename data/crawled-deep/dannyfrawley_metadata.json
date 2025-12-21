@@ -1,0 +1,40 @@
+{
+  "centre_id": "dannyfrawley",
+  "base_url": "https://www.dannyfrawleycentre.com.au/",
+  "pages": [
+    {
+      "url": "https://www.dannyfrawleycentre.com.au/",
+      "length": 6086
+    },
+    {
+      "url": "https://www.dannyfrawleycentre.com.au/mindfit-for-work/",
+      "length": 3585
+    },
+    {
+      "url": "https://www.dannyfrawleycentre.com.au/community-programs/",
+      "length": 2311
+    },
+    {
+      "url": "https://www.dannyfrawleycentre.com.au/swimming_programs/childrens-goswim/",
+      "length": 3412
+    },
+    {
+      "url": "https://www.dannyfrawleycentre.com.au/dfc-isn-partnership/",
+      "length": 5987
+    },
+    {
+      "url": "https://www.dannyfrawleycentre.com.au/recovery-at-dfc/",
+      "length": 4899
+    },
+    {
+      "url": "https://www.dannyfrawleycentre.com.au/about/",
+      "length": 1619
+    },
+    {
+      "url": "https://www.dannyfrawleycentre.com.au/memberships/",
+      "length": 5423
+    }
+  ],
+  "total_pages": 8,
+  "total_chars": 33322
+}

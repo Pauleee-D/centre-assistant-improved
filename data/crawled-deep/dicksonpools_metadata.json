@@ -1,0 +1,48 @@
+{
+  "centre_id": "dicksonpools",
+  "base_url": "https://www.dicksonpool.com.au/",
+  "pages": [
+    {
+      "url": "https://www.dicksonpool.com.au/",
+      "length": 3310
+    },
+    {
+      "url": "https://www.dicksonpool.com.au/venue/about-us/",
+      "length": 1771
+    },
+    {
+      "url": "https://www.dicksonpool.com.au/join/memberships/",
+      "length": 1879
+    },
+    {
+      "url": "https://www.dicksonpool.com.au/bondi-rescues-hoppo-launches-summer-water-safety-campaign-in-canberra/",
+      "length": 4484
+    },
+    {
+      "url": "https://www.dicksonpool.com.au/learn-to-swim/",
+      "length": 1808
+    },
+    {
+      "url": "https://www.dicksonpool.com.au/learn-to-swim/goswim-swimming-lessons/",
+      "length": 9761
+    },
+    {
+      "url": "https://www.dicksonpool.com.au/how-to-stay-safe-in-waterways-this-summer/",
+      "length": 3963
+    },
+    {
+      "url": "https://www.dicksonpool.com.au/stay-safe-and-stay-cool-this-summer/",
+      "length": 3438
+    },
+    {
+      "url": "https://www.dicksonpool.com.au/news",
+      "length": 1842
+    },
+    {
+      "url": "https://www.dicksonpool.com.au/swim/",
+      "length": 1507
+    }
+  ],
+  "total_pages": 10,
+  "total_chars": 33763
+}

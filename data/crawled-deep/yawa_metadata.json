@@ -1,0 +1,48 @@
+{
+  "centre_id": "yawa",
+  "base_url": "https://www.yawa.com.au/",
+  "pages": [
+    {
+      "url": "https://www.yawa.com.au/",
+      "length": 6251
+    },
+    {
+      "url": "https://www.yawa.com.au/footer-links/about-us",
+      "length": 7504
+    },
+    {
+      "url": "https://www.yawa.com.au/swim/aquatic-supervision",
+      "length": 7689
+    },
+    {
+      "url": "https://www.yawa.com.au/venue/pre-purchase-casual-aquatic-entry",
+      "length": 5985
+    },
+    {
+      "url": "https://www.yawa.com.au/join/memberships",
+      "length": 7876
+    },
+    {
+      "url": "https://www.yawa.com.au/swim/aqua-aerobics",
+      "length": 6020
+    },
+    {
+      "url": "https://www.yawa.com.au/swim/member-benefits",
+      "length": 7396
+    },
+    {
+      "url": "https://www.yawa.com.au/join/1-day-guest-pass",
+      "length": 5553
+    },
+    {
+      "url": "https://www.yawa.com.au/train/begin-program-(1)",
+      "length": 7874
+    },
+    {
+      "url": "https://www.yawa.com.au/getmedia/15e4e3c0-78c0-45f7-b52c-6ab43a35bc95/yawa-holiday-hours-(1).png",
+      "length": 464652
+    }
+  ],
+  "total_pages": 10,
+  "total_chars": 526800
+}

@@ -1,0 +1,48 @@
+{
+  "centre_id": "swanhill",
+  "base_url": "https://www.swanhilllc.com.au/",
+  "pages": [
+    {
+      "url": "https://www.swanhilllc.com.au/",
+      "length": 9970
+    },
+    {
+      "url": "https://www.swanhilllc.com.au/train/programs",
+      "length": 5029
+    },
+    {
+      "url": "https://www.swanhilllc.com.au/venue/aquatic-fun-days",
+      "length": 5036
+    },
+    {
+      "url": "https://www.swanhilllc.com.au/contact-us/get-in-touch",
+      "length": 5153
+    },
+    {
+      "url": "https://www.swanhilllc.com.au/venue/active-world",
+      "length": 11868
+    },
+    {
+      "url": "https://www.swanhilllc.com.au/venue/about-us",
+      "length": 6165
+    },
+    {
+      "url": "https://www.swanhilllc.com.au/swim/what-you-need-to-know",
+      "length": 6974
+    },
+    {
+      "url": "https://www.swanhilllc.com.au/learn-to-swim/older-adults",
+      "length": 6783
+    },
+    {
+      "url": "https://www.swanhilllc.com.au/swim/aquatic-facilities",
+      "length": 4883
+    },
+    {
+      "url": "https://www.swanhilllc.com.au/join/memberships-passes",
+      "length": 6462
+    }
+  ],
+  "total_pages": 10,
+  "total_chars": 68323
+}

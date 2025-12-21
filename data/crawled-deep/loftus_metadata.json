@@ -1,0 +1,48 @@
+{
+  "centre_id": "loftus",
+  "base_url": "https://www.loftusrecreationcentre.com.au/",
+  "pages": [
+    {
+      "url": "https://www.loftusrecreationcentre.com.au/",
+      "length": 9161
+    },
+    {
+      "url": "https://www.loftusrecreationcentre.com.au/venue/active-world",
+      "length": 9871
+    },
+    {
+      "url": "https://www.loftusrecreationcentre.com.au/footer-links/inclusive-activities",
+      "length": 4148
+    },
+    {
+      "url": "https://www.loftusrecreationcentre.com.au/join/loftus-memberships",
+      "length": 8685
+    },
+    {
+      "url": "https://www.loftusrecreationcentre.com.au/train/reformer-pilates-(1)",
+      "length": 7446
+    },
+    {
+      "url": "https://www.loftusrecreationcentre.com.au/junior/school-holiday-activities",
+      "length": 7503
+    },
+    {
+      "url": "https://www.loftusrecreationcentre.com.au/train/begin-program",
+      "length": 7621
+    },
+    {
+      "url": "https://www.loftusrecreationcentre.com.au/train/memberships-passes",
+      "length": 8685
+    },
+    {
+      "url": "https://www.loftusrecreationcentre.com.au/play/inclusive-activities",
+      "length": 4148
+    },
+    {
+      "url": "https://www.loftusrecreationcentre.com.au/join/member-benefits",
+      "length": 5930
+    }
+  ],
+  "total_pages": 10,
+  "total_chars": 73198
+}

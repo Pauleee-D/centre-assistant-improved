@@ -1,0 +1,48 @@
+{
+  "centre_id": "canberraolympicpool",
+  "base_url": "https://www.canberraolympicpool.com.au/",
+  "pages": [
+    {
+      "url": "https://www.canberraolympicpool.com.au/",
+      "length": 8392
+    },
+    {
+      "url": "https://www.canberraolympicpool.com.au/train/begin-program",
+      "length": 6916
+    },
+    {
+      "url": "https://www.canberraolympicpool.com.au/venue/accessibility",
+      "length": 4478
+    },
+    {
+      "url": "https://www.canberraolympicpool.com.au/learn-to-swim/school-holiday-program",
+      "length": 7159
+    },
+    {
+      "url": "https://www.canberraolympicpool.com.au/venue/frequently-asked-questions",
+      "length": 4420
+    },
+    {
+      "url": "https://www.canberraolympicpool.com.au/contact-us/location",
+      "length": 4222
+    },
+    {
+      "url": "https://www.canberraolympicpool.com.au/footer-links/aquatic-facilities",
+      "length": 5516
+    },
+    {
+      "url": "https://www.canberraolympicpool.com.au/footer-links/opening-hours",
+      "length": 4513
+    },
+    {
+      "url": "https://www.canberraolympicpool.com.au/venue/opening-hours",
+      "length": 4513
+    },
+    {
+      "url": "https://www.canberraolympicpool.com.au/footer-links/newsletter-subscription",
+      "length": 3815
+    }
+  ],
+  "total_pages": 10,
+  "total_chars": 53944
+}

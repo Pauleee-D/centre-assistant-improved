@@ -1,0 +1,48 @@
+{
+  "centre_id": "tomaree",
+  "base_url": "https://www.tomareeac.com.au/",
+  "pages": [
+    {
+      "url": "https://www.tomareeac.com.au/",
+      "length": 9568
+    },
+    {
+      "url": "https://www.tomareeac.com.au/venue/join-our-team",
+      "length": 5721
+    },
+    {
+      "url": "https://www.tomareeac.com.au/train/group-fitness",
+      "length": 5764
+    },
+    {
+      "url": "https://www.tomareeac.com.au/venue/about-us",
+      "length": 4522
+    },
+    {
+      "url": "https://www.tomareeac.com.au/venue/active-world",
+      "length": 11263
+    },
+    {
+      "url": "https://www.tomareeac.com.au/join/free-1-day-pass",
+      "length": 3474
+    },
+    {
+      "url": "https://www.tomareeac.com.au/getmedia/35ccff70-544c-462e-bed8-a93826421ab3/december-aqua_3.pdf",
+      "length": 704172
+    },
+    {
+      "url": "https://www.tomareeac.com.au/swim/swim-club",
+      "length": 5004
+    },
+    {
+      "url": "https://www.tomareeac.com.au/swim/membership-enquiry",
+      "length": 4011
+    },
+    {
+      "url": "https://www.tomareeac.com.au/swim/aqua-aerobics",
+      "length": 5241
+    }
+  ],
+  "total_pages": 10,
+  "total_chars": 758740
+}

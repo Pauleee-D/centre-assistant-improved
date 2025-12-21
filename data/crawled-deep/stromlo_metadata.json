@@ -1,0 +1,48 @@
+{
+  "centre_id": "stromlo",
+  "base_url": "https://www.stromloleisurecentre.com.au/",
+  "pages": [
+    {
+      "url": "https://www.stromloleisurecentre.com.au/",
+      "length": 9404
+    },
+    {
+      "url": "https://www.stromloleisurecentre.com.au/learn-to-swim/school-holiday-program",
+      "length": 7551
+    },
+    {
+      "url": "https://www.stromloleisurecentre.com.au/learn-to-swim/enrolment",
+      "length": 5545
+    },
+    {
+      "url": "https://www.stromloleisurecentre.com.au/venue/cafe",
+      "length": 4350
+    },
+    {
+      "url": "https://www.stromloleisurecentre.com.au/train/air-gym",
+      "length": 6872
+    },
+    {
+      "url": "https://www.stromloleisurecentre.com.au/swim/aqua-aerobics",
+      "length": 5709
+    },
+    {
+      "url": "https://www.stromloleisurecentre.com.au/train/group-classes",
+      "length": 5675
+    },
+    {
+      "url": "https://www.stromloleisurecentre.com.au/venue/entry-fees",
+      "length": 6161
+    },
+    {
+      "url": "https://www.stromloleisurecentre.com.au/learn-to-swim/school-programs",
+      "length": 5774
+    },
+    {
+      "url": "https://www.stromloleisurecentre.com.au/contact-us/get-in-touch",
+      "length": 5080
+    }
+  ],
+  "total_pages": 10,
+  "total_chars": 62121
+}

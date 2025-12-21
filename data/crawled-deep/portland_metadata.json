@@ -1,0 +1,48 @@
+{
+  "centre_id": "portland",
+  "base_url": "https://www.portlandleisurecentre.com.au/",
+  "pages": [
+    {
+      "url": "https://www.portlandleisurecentre.com.au/",
+      "length": 7801
+    },
+    {
+      "url": "https://www.portlandleisurecentre.com.au/news/portland-leisure-and-aquatic-centre-welcome-350-at",
+      "length": 5464
+    },
+    {
+      "url": "https://www.portlandleisurecentre.com.au/learn-to-swim/development-squad",
+      "length": 5163
+    },
+    {
+      "url": "https://www.portlandleisurecentre.com.au/join/memberships-passes",
+      "length": 6693
+    },
+    {
+      "url": "https://www.portlandleisurecentre.com.au/venue/about-us",
+      "length": 5250
+    },
+    {
+      "url": "https://www.portlandleisurecentre.com.au/footer-links/about-us",
+      "length": 5250
+    },
+    {
+      "url": "https://www.portlandleisurecentre.com.au/contact-us/location",
+      "length": 4621
+    },
+    {
+      "url": "https://www.portlandleisurecentre.com.au/learn-to-swim/school-swimming-program",
+      "length": 5900
+    },
+    {
+      "url": "https://www.portlandleisurecentre.com.au/join/active-world",
+      "length": 10726
+    },
+    {
+      "url": "https://www.portlandleisurecentre.com.au/getmedia/ffce9767-5f0b-4c43-a823-b1b339e03295/group-fitness-timetable-current.pdf",
+      "length": 133961
+    }
+  ],
+  "total_pages": 10,
+  "total_chars": 190829
+}

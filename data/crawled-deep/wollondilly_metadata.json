@@ -1,0 +1,48 @@
+{
+  "centre_id": "wollondilly",
+  "base_url": "https://www.wclc.com.au/",
+  "pages": [
+    {
+      "url": "https://www.wclc.com.au/",
+      "length": 3802
+    },
+    {
+      "url": "https://www.wclc.com.au/venue/opening-hours/",
+      "length": 708
+    },
+    {
+      "url": "https://www.wclc.com.au/swim-school/",
+      "length": 2040
+    },
+    {
+      "url": "https://www.wclc.com.au/venue/about-us/",
+      "length": 2839
+    },
+    {
+      "url": "https://www.wclc.com.au/learn-to-swim/goswim-swimming-lessons/",
+      "length": 10011
+    },
+    {
+      "url": "https://www.wclc.com.au/gym/",
+      "length": 1863
+    },
+    {
+      "url": "https://www.wclc.com.au/join/memberships/",
+      "length": 2213
+    },
+    {
+      "url": "https://www.wclc.com.au/100-kickstart-towards-teen-goswim-lessons/",
+      "length": 6670
+    },
+    {
+      "url": "https://www.wclc.com.au/swim/",
+      "length": 2379
+    },
+    {
+      "url": "https://www.wclc.com.au/learn-to-swim/",
+      "length": 1741
+    }
+  ],
+  "total_pages": 10,
+  "total_chars": 34266
+}

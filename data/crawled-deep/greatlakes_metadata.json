@@ -1,0 +1,32 @@
+{
+  "centre_id": "greatlakes",
+  "base_url": "https://greatlakesalc.com.au/",
+  "pages": [
+    {
+      "url": "https://greatlakesalc.com.au/",
+      "length": 3421
+    },
+    {
+      "url": "https://greatlakesalc.com.au/swim/goswim/",
+      "length": 2772
+    },
+    {
+      "url": "https://greatlakesalc.com.au/venue/about-us/",
+      "length": 1083
+    },
+    {
+      "url": "https://greatlakesalc.com.au/join/memberships/",
+      "length": 1220
+    },
+    {
+      "url": "https://greatlakesalc.com.au/gym/gym-facilities/",
+      "length": 2138
+    },
+    {
+      "url": "https://greatlakesalc.com.au/swim/aquatic-facilities/",
+      "length": 2000
+    }
+  ],
+  "total_pages": 6,
+  "total_chars": 12634
+}

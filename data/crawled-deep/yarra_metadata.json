@@ -1,0 +1,40 @@
+{
+  "centre_id": "yarra",
+  "base_url": "https://www.yarracentre.com.au/",
+  "pages": [
+    {
+      "url": "https://www.yarracentre.com.au/",
+      "length": 3602
+    },
+    {
+      "url": "https://www.yarracentre.com.au/venue/about-us/",
+      "length": 3110
+    },
+    {
+      "url": "https://www.yarracentre.com.au/gym/",
+      "length": 1322
+    },
+    {
+      "url": "https://www.yarracentre.com.au/learn-to-swim/",
+      "length": 2501
+    },
+    {
+      "url": "https://www.yarracentre.com.au/swim/",
+      "length": 2329
+    },
+    {
+      "url": "https://www.yarracentre.com.au/join/memberships/",
+      "length": 2835
+    },
+    {
+      "url": "https://www.yarracentre.com.au/venue/opening-hours/",
+      "length": 686
+    },
+    {
+      "url": "https://www.yarracentre.com.au/refer-a-friend-for-your-chance-to-win-and-inspire-a-love-of-swimming/",
+      "length": 4187
+    }
+  ],
+  "total_pages": 8,
+  "total_chars": 20572
+}

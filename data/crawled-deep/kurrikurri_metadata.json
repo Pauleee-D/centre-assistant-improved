@@ -1,0 +1,48 @@
+{
+  "centre_id": "kurrikurri",
+  "base_url": "https://www.kurrikurriafc.com.au/",
+  "pages": [
+    {
+      "url": "https://www.kurrikurriafc.com.au/",
+      "length": 8827
+    },
+    {
+      "url": "https://www.kurrikurriafc.com.au/learn-to-swim/adults",
+      "length": 5855
+    },
+    {
+      "url": "https://www.kurrikurriafc.com.au/swim/casual-swimming",
+      "length": 4538
+    },
+    {
+      "url": "https://www.kurrikurriafc.com.au/venue/about-us",
+      "length": 6251
+    },
+    {
+      "url": "https://www.kurrikurriafc.com.au/swim/swim-squad",
+      "length": 4599
+    },
+    {
+      "url": "https://www.kurrikurriafc.com.au/learn-to-swim/children",
+      "length": 7435
+    },
+    {
+      "url": "https://www.kurrikurriafc.com.au/venue/active-world",
+      "length": 11593
+    },
+    {
+      "url": "https://www.kurrikurriafc.com.au/swim/membership-enquiry",
+      "length": 4485
+    },
+    {
+      "url": "https://www.kurrikurriafc.com.au/train/group-fitness",
+      "length": 5286
+    },
+    {
+      "url": "https://www.kurrikurriafc.com.au/contact-us/employment",
+      "length": 4492
+    }
+  ],
+  "total_pages": 10,
+  "total_chars": 63361
+}

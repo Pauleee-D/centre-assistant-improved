@@ -1,0 +1,48 @@
+{
+  "centre_id": "wulanda",
+  "base_url": "https://www.wulanda.com.au/",
+  "pages": [
+    {
+      "url": "https://www.wulanda.com.au/",
+      "length": 10398
+    },
+    {
+      "url": "https://www.wulanda.com.au/train/begin-program",
+      "length": 6820
+    },
+    {
+      "url": "https://www.wulanda.com.au/play/facilities",
+      "length": 4703
+    },
+    {
+      "url": "https://www.wulanda.com.au/footer-links/about-us",
+      "length": 6986
+    },
+    {
+      "url": "https://www.wulanda.com.au/venue/opening-hours",
+      "length": 5541
+    },
+    {
+      "url": "https://www.wulanda.com.au/contact-us/get-in-touch",
+      "length": 4468
+    },
+    {
+      "url": "https://www.wulanda.com.au/venue/childcare",
+      "length": 4829
+    },
+    {
+      "url": "https://www.wulanda.com.au/train/teen-gym",
+      "length": 4479
+    },
+    {
+      "url": "https://www.wulanda.com.au/learn-to-swim/adult",
+      "length": 4877
+    },
+    {
+      "url": "https://www.wulanda.com.au/contact-us/manage-membership",
+      "length": 5969
+    }
+  ],
+  "total_pages": 10,
+  "total_chars": 59070
+}

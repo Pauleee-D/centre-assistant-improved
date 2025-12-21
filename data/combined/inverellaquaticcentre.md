@@ -1,0 +1,1087 @@
+# inverellaquaticcentre
+Base URL: https://inverellaquaticcentre.com.au/
+This knowledge base combines official pricing/schedules from OneNote with current website content.
+Last updated: Auto-generated from multiple sources
+
+---
+## Official Information (Pricing, Schedules, Contact)
+*Source: Internal OneNote documentation*
+## Inverell Centre Video
+
+Tuesday,December17,2024 8:20AM
+
+## https://youtu.be/2wHxMG5x7ks
+
+Inverell Aquatic Centre offers a 25/50m indoor/outdoor pool, program pool and splash park aswellasitoffersgroupexerciseoptions andlearntoswimlessons.
+
+## Opening Hours
+
+Tuesday,October15,2024 11:29 AM
+
+## InverellAquaticCentre
+
+The table below shows the proposed minimum opening hours.Councilmay choose to increasethehourssubjecttodemand.
+
+| Inverell AquaticCentre-MinimumCoreOperating Hours   | Inverell AquaticCentre-MinimumCoreOperating Hours   | Inverell AquaticCentre-MinimumCoreOperating Hours   |
+|-----------------------------------------------------|-----------------------------------------------------|-----------------------------------------------------|
+| Day                                                 | Open Time                                           | Close Time                                          |
+| Monday                                              | 6.00am                                              | 7.00pm                                              |
+| Tuesday                                             | 6.00am                                              | 7.00pm                                              |
+| Wednesday                                           | 6.00am                                              | 7.00pm                                              |
+| Thursday                                            | 6.00am                                              | 7.00pm                                              |
+| Friday                                              | 6.00am                                              | 7.00pm                                              |
+| Saturday                                            | 8.00am                                              | 4.00pm                                              |
+| Sunday                                              | 9.00am                                              | 3.00pm                                              |
+| PublicHolidays                                      | 9.00am                                              | 3.00pm                                              |
+| AnzacDay                                            | 1.00pm                                              | 7.00pm(if weekday) 6.00pm(if weekend)               |
+| Xmas Day and GoodFriday                             | Closed                                              |                                                     |
+
+## Contact Info
+
+## Contact Details
+
+(02)67223939 E-mail inverellaquaticcentre @belgravialeisure.com.au 45LawrenceSt,Inverell,NsW2360 Websitehttps://inverellaquaticcentre.com.au/
+
+I will updatewithmore staff once they arehired
+
+## Parking
+
+Tuesday,October15,2024 11:30 AM
+
+There will be parking available on Lawrence and EvensSt and accessibleparking available out the frontofthevenue.
+
+## Facilities (Dry and Aquatic)
+
+- ·50Metre8lanepoolthatturnsinto anindoor25metrepoolinwinter.
+- ·Warm water program pool that isbetween 31-34 degrees Celsius.This will have a moveable floor that changes depth for multi program use.You can have swimminglessons in one end andwarmwateraquaaerobicsintheotherend.
+- openingFriday 12September)
+- 30mmdepthtoddlerspoolthatissafeandfunforthekids
+- A multipurpose room that can be divided into 2 spaces or opened up into a large room of 180 sq metres. This room can be hired. (see fees and charges for rates) The multi purpose room willalsohold thegroupfitnessclasses(seegroupfitnesstimetable)
+- 3 consultation rooms that will be used for allied health services such as physios, massage therapistetc(yettoberented)
+- CaféandKiosk thatwillserve a variety offood drinksand coffee.(menutobeadded shortly)
+- Gymbaroowill beheld 3daysperweekinthemultipurposeroom.Moreinfotocome.(toget anideaoftheprogramseethelinkGymbaROO/KindyROO-EarlyChildhoodDevelopmentGymbaROOKindyROO
+
+## Pool Temps
+
+| Area                    | PoolTemp    | RoomAirTemp            |
+|-------------------------|-------------|------------------------|
+| Indoor25mPool,winter    | 26 +/-1C    | 28+/-1.5C（winter mode) |
+| WarmWaterPool           | 31-34C+/-1C | 33+/-1.5C（yearround)   |
+| Waterplay/ToddlersPool  | 30C+/-1C    | 28+/-1.5C（wintermode)  |
+| Publicareas             |             | 23+/-1.5               |
+| Officeandstaffareas     |             | 23 +/-1.5              |
+| Changeroomsandamenities |             | 24 +/-1.5              |
+
+25m Indoor Pool-26°C(+/-1°C)
+
+Warm Water Program Pool -31-34°C (+/-1°C) ToddlerPool-30°C(+/-1°C) OutdoorPool-uncontrolled
+
+## Gymbaroo
+
+## Pleasereferenquiriesbackto the Centre tomanage.
+
+## Amenities
+
+Tuesday,October15,2024 11:31AM
+
+Therewillbea numberofchangeroomandbathroomfacilitiesthroughoutthevenue.Therewill be accessiblechangeroomsaswell.
+
+## Access &amp; Inclusion
+
+Tuesday,October15,2024
+
+11:31AM
+
+- There is accessible parking out the front and a ramp for accessibility.
+- There will be accessible pool hoists that can help people get in and out of both the 50 metre andprogrampool
+- ·There are accessible bathrooms and change facilities available in the venue
+
+## Memberships
+
+Tuesday, October 15, 2024
+
+## 2025/2026
+
+| Membership Package           | Access To                                                                                                                               | Access Timings                                                                                                                                           | Prices                                                                    |
+|------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------|
+| AquaticAccess Aquatic Access | ·Swimming Pools                                                                                                                         | ●Monday : 06:00 - 19:00 ·Tuesday:06:00-19:00 ·Wednesday:06:00-19:00 ·Thursday:05:00- 19:00 ·Friday:06:00-19:00 ·Saturday:08:00-16:00 ●Sunday:09:00-15:00 | ·ADULT @ $15.60 / wk (DirectDebit ) CONCESSION@$I3.0O/wk（DirectDebit)     |
+| FullAccess Full Access       | ·Swimming Pools ·Group Fitness ○Aqua ○Cardio o Freestyle oWellness o Martial Arts o Les Mills ·Functional Training ○Functional Training | ●Monday:06:00- 19:00 ·Tuesday:06:00-19:00 ·Wednesday:06:00-19:00 ●Thursday:05:00-19:00 ●Friday:06:00-19:00 ·Saturday:08:00-16:00 ·Sunday:09:00-15:00     | ·ADULT @ S18.20 / wk(DirectDebit ) ·CONCESSION@ $15.60 / wk(DirectDebit ) |
+
+11:31 AM
+
+## Casual Rates &amp; Passes
+
+## 25/26NFYPrices
+
+## ·All Casual Entry options:
+
+| GENERALADMISSION-AQUATICS              |        |
+|----------------------------------------|--------|
+| Adult                                  | $6.70  |
+| Adultconcession                        | $5.00  |
+| Child                                  | $5.00  |
+| Family                                 | $20.80 |
+| School Groups - LTS and Carnivals      | $4.20  |
+| Spectator                              | $2.60  |
+| SwimClubMember                         | $4.20  |
+| Multivisit Passes (x10)Adult           | $60.80 |
+| Multivisit Pass (x10) Concession/Child | $44.90 |
+
+| AquaClass                         | PricePer Class   |
+|-----------------------------------|------------------|
+| Aqua Aerobics - Casual Adult      | $16.00           |
+| Aqua Aerobics - Casual Concession | $14.00           |
+
+## Group Fitness
+
+## THEREWILLBENOGYM
+
+There will be a number of groupfitness classes available 5 days per week excl Saturday &amp; Sunday including;
+
+They are included in the Health and Fitness Membership as well as casual payment options, membership ismoreeconomical
+
+- ·Aqua Pilates in the 25 metre WW pool
+- ·Pilates
+- Group Fitness
+- Yin Yoga
+- ·HydroLabinthe50mpool
+
+All timetables subject to change based on instructor recruitment and availability https://inverellaquaticcentre.com.au/group-exercise/
+
+## GOswim
+
+## 25/26NFYPrices
+
+PleaserefercustomertoQLDteam(consulttransferorcreateanewlead)
+
+- All G0swim programs:JoiningFee:$20.80Lesson$20.80
+
+FAQS
+
+- How much do lessons cost? Swimminglessonscost$20.20perlesson
+- When will lessonsbeheld? Lessonswill run7daysperweekinthemorningand afternoons
+- Whenwillthetimetablebereleased? Specifictimesand classlevels displayed on Aw
+- What ages do lessons cater for? Lessonscaterforswimmersofallagesandabilitiesstartingat6monthsthroughtoadults
+- Do you provide makeuplessons?
+
+Yes we dowith at least 1 hour notice priortoclass start time and if spots are available,you have 2 weekstocompletethemakeupclass
+
+- Can I suspend my classes?
+
+## Active Kids Vouchers:
+
+Wewill beregisteringwiththe Office ofSporttobeanActiveKidsprovider assoon asweare able to.Onceourregistrationisconfirmedwewill be abletoredeemyourvouchers andapplythem to youraccount
+
+## Personal Training
+
+Tuesday,October 15,2024 11:32AM
+
+Personal Training won't be offered at this stage
+
+## Concessions
+
+Tuesday, October 15, 2024 11:32 AM
+
+## Companion Card
+
+TheCompanionCardwill requireyoutopayonlyforyourentry.Asecondentry ticketwillbeissuedforyourcompanionatno charge.PresentyourCompanionCard whenyouarepayingyourentryfee.
+
+SeebelowformoreinformationabouttheCompanionCardprogram.
+
+## Concession
+
+Concessionentryfeeisavailableforeligiblemembersandvisitors.Youmustpresent avalid ConcessionCardtoreceivetheconcessionrate.
+
+Eligiblecardsinclude:HealthCarecard,Studentcard,Seniorscard.
+
+## Fitness Passport
+
+Tuesday,October15,2024 11:32AM
+
+Fitness passport will be offered by scanning the QR code on site
+
+## No Childcare
+
+Tuesday,October15,2024 11:32 AM
+
+## Childcarewon'tbeoffered
+
+## Exercise Physiology
+
+X3Services Consult Room 1- Moveology (Physiotherapy from Glen Innes expanding to Inverell with Shane and Ellen) ConsultRoom2-InverellMassageTherapy(Kacey) ConsultRoom3-PhysioEffect(PhysiotherapywithNaomi)
+
+---
+## Website Content (Facilities, Programs, Current Information)
+*Source: Website crawl - 10 pages*
+### Available Pages:
+1. https://inverellaquaticcentre.com.au/
+2. https://inverellaquaticcentre.com.au/contact-us/employment/
+3. https://inverellaquaticcentre.com.au/its-world-mental-health-day/
+4. https://inverellaquaticcentre.com.au/learn-to-swim/goswim-swimming-lessons/
+5. https://inverellaquaticcentre.com.au/refer-a-friend-for-your-chance-to-win-and-inspire-a-love-of-swimming-2/
+6. https://inverellaquaticcentre.com.au/venue/about-us/
+7. https://inverellaquaticcentre.com.au/join/memberships
+8. https://inverellaquaticcentre.com.au/news
+9. https://inverellaquaticcentre.com.au/swim/aquatic-facilities/
+10. https://inverellaquaticcentre.com.au/say-yes-to-you-make-time-to-move/
+
+# inverellaquaticcentre
+
+Base URL: https://inverellaquaticcentre.com.au/
+
+Total pages crawled: 10
+
+---
+
+## Page 1: https://inverellaquaticcentre.com.au/
+
+Skip to content
+
+  * # Move more at  
+Inverell Aquatic Centre
+
+Your brand-new aquatic centre is now open! 
+
+[**Join Now**](/join/memberships)
+
+
+
+
+## Welcome to Inverell Aquatic Centre
+
+Our facility will serve the Inverell community and surrounds, offering programs and facilities to cater to the inclusion of people of all ages and abilities.
+
+The $25 million aquatic centre replaces the previous 70 year old facility and provides a range of amenities for the whole family to enjoy.   
+  
+Inverell Aquatic Centre offers a 25/50m indoor/outdoor pool, program pool and splash park as well as it offers group exercise options and learn to swim lessons.
+
+[About Us](/venue/about-us/)
+
+###### Together We Move More
+
+Enjoy access to our facilities with a membership. Take a step on your health and wellbeing journey today.  
+[](https://www.coppercoastslc.com.au/join/memberships/)
+
+[Join Now](/join/memberships)
+
+#### Aquatics
+
+There are many ways to enjoy movement in the water. Inverell Aquatic Centre offers a variety of aquatic features to enrich community with water-play activities and swim training.
+
+[Learn More](/swim/aquatic-facilities/)
+
+#### Learn to Swim
+
+Inverell Aquatic Centre is proud to deliver the GOswim learn to swim program, powered by Swimming Australia. GOswim engages students in fun, activity-based lessons to foster confident and safe swimmers.  
+[](https://victoriahealthclub.com.au/learn-to-swim/goswim-swimming-lessons/)
+
+[Learn More](/learn-to-swim/goswim-swimming-lessons/)
+
+### Employment Opportunities
+
+Prepare for a rewarding career with Inverell Aquatic Centre and Belgravia Leisure. To view our current employment opportunities and pathways click on the link below.
+
+[Learn More](/contact-us/employment/)
+
+## Latest News
+
+[](https://inverellaquaticcentre.com.au/its-world-mental-health-day/)
+
+It’s World Mental Health Day! World Mental Health Day is observed on 10 October each year as a global movement to raise awareness, reduce stigma, and encourage positive action for…
+
+[Read More > It’s World Mental Health Day!](https://inverellaquaticcentre.com.au/its-world-mental-health-day/)
+
+[](https://inverellaquaticcentre.com.au/say-yes-to-you-make-time-to-move/)
+
+Women’s Health Week 2025 It’s Women’s Health Week 2025! From the 1st – 5th of September 2025, we are focussing on the health and wellbeing of all women. This year…
+
+[Read More > Say Yes to You: Make Time to Move](https://inverellaquaticcentre.com.au/say-yes-to-you-make-time-to-move/)
+
+[](https://inverellaquaticcentre.com.au/refer-a-friend-for-your-chance-to-win-and-inspire-a-love-of-swimming-2/)
+
+As a valued Member, you already know the importance of staying active, building confidence and feeling safe in and around water. Now’s your chance to spread the word and be…
+
+[Read More > Refer a friend for your chance to WIN and inspire a love of swimming!](https://inverellaquaticcentre.com.au/refer-a-friend-for-your-chance-to-win-and-inspire-a-love-of-swimming-2/)
+
+[View All](/news)
+
+###### Subscribe to our newsletter
+
+Be the first to hear about our latest news, events and offers.
+
+Subscribe
+
+## Get in touch
+
+**Email**
+
+inverellaquaticcentre@belgravialeisure.com.au
+
+**Phone**
+
+02 6722 3939
+
+**Address**
+
+45 Lawrence Street, Inverell, NSW 2360
+
+###### Inverell Aquatic Centre is now open! **[Become a member](/join/memberships) or [enrol in swimming lessons](/learn-to-swim/goswim-swimming-lessons/#goswim-enquiry) today!**
+
+Toggle Menu Close
+
+Search for:
+
+Search
+
+
+---
+
+## Page 2: https://inverellaquaticcentre.com.au/contact-us/employment/
+
+Skip to content
+
+# **Employment**
+
+## **Work with us** at Inverell Aquatic Centre
+
+Our employees have access to an extensive range of career options, family-friendly workplaces and the chance to make a difference in their community.  
+  
+Our programs are designed to encourage everyone in our community to get active in any way they can and help people overcome their barriers with participation. We work with community groups and advocates of some of the most vulnerable members of our communities to help build confidence and independence, allowing everyone a chance to be actively involved in life.
+
+#### **Employee benefits**
+
+We offer genuine career pathway opportunities with the support to upskill and advance. 
+
+  * **Free venue access** – enjoy access to our facilities before or after work.
+  * **Supported training** – we support you with how to become qualified as well as annual certifications.
+  * **Access to discounts & benefits **– access discounts to hundreds of well-known retailers and access to exclusive staff offers.
+  * **Employee assistance program** – your mental health is our priority. Team members have access to trained counsellors as required.
+
+
+
+#### Current positions at Inverell Aquatic Centre
+
+View current positions we are recruiting for at Inverell Aquatic Centre.
+
+[See Jobs](https://belgravia.expr3ss.com/home?action=&display=location&displaystyle=4&search=inverell)
+
+#### Current positions at Belgravia Leisure
+
+View current positions available within our wider Belgravia Leisure network.
+
+[Learn More](https://belgravialeisure.com.au/find-a-job/)
+
+#### Become a   
+Lifeguard
+
+We are currently on the lookout for talented, passionate individuals with a drive for safety to join our lifeguarding teams
+
+[Learn More](https://belgravialeisure.com.au/become-a-lifeguard/)
+
+#### Become a   
+Swim Teacher
+
+We are always looking for individuals with a passion for teaching swimming to join our GOswim team.
+
+[Learn More](https://www.goswimaustralia.com.au/employment/)
+
+###### Inverell Aquatic Centre is now open! **[Become a member](/join/memberships) or [enrol in swimming lessons](/learn-to-swim/goswim-swimming-lessons/#goswim-enquiry) today!**
+
+Toggle Menu Close
+
+Search for:
+
+Search
+
+
+---
+
+## Page 3: https://inverellaquaticcentre.com.au/its-world-mental-health-day/
+
+Skip to content
+
+**It’s World Mental Health Day!**
+
+World Mental Health Day is observed on 10 October each year as a global movement to raise awareness, reduce stigma, and encourage positive action for mental wellbeing. The day invites communities, workplaces, schools, and individuals to pause, reflect, and act in ways that strengthen social connection and mental health.
+
+**About World Mental Health Day**
+
+World Mental Health Day highlights that mental health is fundamental to overall health, and that small, everyday actions can make a big difference. It creates a shared moment for public education, personal reflection, and community-led activity that normalises conversations about mental wellbeing and encourages people to reach out for support when needed.
+
+**This year’s theme is ‘Connect with your community’**
+
+Mental Health Australia’s theme for World Mental Health Day is Connect with your community, encouraging everyone to connect with the communities that matter to them. Connecting with our communities can help us feel cared for and supported, which is good for our mental health.
+
+The focus emphasises the protective power of social connection, the relationships, networks, and places where people feel safe, heard, and valued. Connection reduces loneliness, builds resilience, and strengthens our ability to cope with stress and adversity.
+
+**Simple ways to take part**
+
+  * Reach out to someone and start a genuine conversation.
+  * Join a local group, event, or online community that shares an interest you enjoy.
+  * Schedule a short walk, coffee, or phone call with a neighbour, friend, or colleague.
+  * Volunteer or offer practical help to someone who may be isolated.
+  * Share resources and honest messages about mental health to help reduce stigma.
+
+
+
+**World Mental Health Day Calendar**
+
+Mental Health Australia has also collaborated with ReachOut, one of Australia’s leading online mental health services for young people, to create a calendar and share daily tips for good mental health. Follow along the calendar and take a little time each day to prioritise your mental health!
+
+This World Mental Health Day, take a small step and visit our venue!
+
+Drop in, bring someone with you, exercise or simply spend time here to connect and prioritise your wellbeing.
+
+**Learn more**
+
+Find national guidance and resources about World Mental Health Day at Mental Health Australia: [www.mentalhealthaustralia.org.au](https://www.mentalhealthaustralia.org.au/).
+
+**Mental Health Support Links:**
+
+  * **Lifeline Australia:** Provides 24-hour crisis support and suicide prevention services. Visit [www.lifeline.org.au](http://www.lifeline.org.au)
+  * **Beyond Blue:** Offers support for anxiety, depression, and suicide prevention. Visit [www.beyondblue.org.au](https://www.beyondblue.org.au)
+
+
+
+## Similar Posts
+
+  * [ ](https://inverellaquaticcentre.com.au/meet-our-venue-manager/)
+
+Get to know Inverell Aquatic Centre’s venue manager, Victoria Plain. Victoria comes from a 20-year career as a primary school teacher in Inverell. During her time as a teacher, Victoria also applied herself as a sports coordinator and Zone secretary. Victoria is a country girl and a devoted mum of three. Soon, she’ll be tackling…
+
+  * [ ](https://inverellaquaticcentre.com.au/royal-life-saving-lifeguard-training-course/)
+
+On 26 and 27 April, Inverell Aquatic Centre will be hosting a Pool Lifeguard training course run by Royal Life Saving. Applicants will then be qualified to apply for employment at the newly opened aquatic centre. Applicants must be at least 16 years old, however they do not require any prior experience to sign up…
+
+  * [ ](https://inverellaquaticcentre.com.au/refer-a-friend-for-your-chance-to-win-and-inspire-a-love-of-swimming-2/)
+
+As a valued Member, you already know the importance of staying active, building confidence and feeling safe in and around water. Now’s your chance to spread the word and be rewarded in a big way! We’re offering current, eligible members the chance to WIN a trip to see athletes from the Australian Dolphins Swim Team…
+
+  * [ ](https://inverellaquaticcentre.com.au/inverell-aquatic-centre-opens-to-the-local-community/)
+
+After months of anticipation, the new multi-million dollar Inverell Aquatic Centre has officially opened its doors to the public from 27 February, 2025. The venue was officially granted World Aquatics Accreditation (formally FINA) last week, making it the only Aquatic Centre in the north of the state to hold this prestigious title. Mayor of Inverell…
+
+  * [ ](https://inverellaquaticcentre.com.au/100-kickstart-towards-teen-goswim-lessons/)
+
+In response to Royal Life Saving’s recently released data that shows lifesaving skills of high school students are not up to standard, Inverell Aquatic Centre and Belgravia Leisure are urging families to act by enrolling teens with weak swimming skills in a learn to swim program. In response to this skill gap, we are offering a…
+
+  * [ ](https://inverellaquaticcentre.com.au/loneliness-awareness-week-2025/)
+
+It’s Loneliness Awareness Week! Loneliness is a critical issue and is recognised as a public health priority for many countries around the world. However, despite being highly prevalent, loneliness isn’t widely understood or spoken about in Australia. Loneliness Awareness Week, from Ending Loneliness Together, shines a spotlight on the shared experience of loneliness and calls…
+
+
+
+
+###### Inverell Aquatic Centre is now open! **[Become a member](/join/memberships) or [enrol in swimming lessons](/learn-to-swim/goswim-swimming-lessons/#goswim-enquiry) today!**
+
+Toggle Menu Close
+
+Search for:
+
+Search
+
+
+---
+
+## Page 4: https://inverellaquaticcentre.com.au/learn-to-swim/goswim-swimming-lessons/
+
+Skip to content
+
+# GOswim Swimming and Water Safety Program
+
+### GOswim Lessons at Inverell Aquatic Centre
+
+  * **Ages:** [infants from 6 months of age through to adults]
+  * **Program runs for:** 48 Weeks
+  * **Held in our:**
+  * Ongoing Membership with **exclusive benefits!**
+  * Students can join a **small group class** or request **private one-on-one lessons**
+
+
+
+[venue may add any additional key program points here or apply local photo]
+
+### Membership Inclusions
+
+When you become a member of our GOswim program at Inverell Aquatic Centre, you’ll be accessing these great inclusions: 
+
+  * Weekly lessons with easy and affordable payments
+  * GOswim Welcome Bag to store your swim gear 
+  * Unlimited student aquatic access outside of lessons 
+  * 4 weeks of unlimited family swim access over summer 
+  * 1-week Summer Holiday Swimming Program 
+  * Active World App access to conveniently manage your membership
+
+
+
+Weekly lessons start at: 
+
+_*Membership terms and conditions apply._
+
+Enquire Now
+
+### Swimming lessons for all abilities
+
+We welcome students of all abilities and ages to participate in our GOswim program. If you are seeking an accessible and inclusive swimming experience, please contact us to discuss.
+
+enquire Today
+
+### Start your GOswim Journey
+
+Sometimes it’s easier to talk things through – especially if you’re enrolling multiple students or want advice on the right level. Our friendly team is ready to guide you and make the process simple.
+
+Call us to speak with a team member or, complete the enquiry form below and we’ll get back to you.
+
+[Call Us](tel:02%206722%203939)
+
+#### Enrol via our app
+
+Everyone’s GOswim journey is powered by innovative technology. Enrol in lessons via our Active World app. Follow the steps below:
+
+  1. Download the [Active World app](https://qrco.de/bbRx0F)
+  2. Create an account
+  3. Tap **_Book Weekly Lesson_** from the home screen 
+  4. Add each student you wish to enrol, if not yourself. Then simply follow the prompts to find a lesson and time that suits you.
+
+
+
+If you need assistance, please complete the enquiry form on this page for a team member to give you a call back.
+
+The Active World app was specifically designed to improve communication and interaction between our GOswim team and students, parents/carers. Your **self-managed** personal portal will enable you to:
+
+  * View upcoming classes 
+  * Book new classes 
+  * Advise of us of student absence and book a make-up lesson
+  * Track learning pathways, skill achievement and progression
+  * Receive digital awards for effort, teamwork, perseverance and having FUN! 
+  * Send and receive messages to the Centre staff 
+  * Manage personal and billing details
+
+
+
+#### Enquire about swimming lessons
+
+"*" indicates required fields
+
+Facebook
+
+This field is for validation purposes and should be left unchanged.
+
+Name*
+
+First Last
+
+Email*
+
+Phone*
+
+Are you a resident in Jubilee estate?*
+
+– Select Option –YesNo
+
+Lesson Type*
+
+– Select Option –Group ClassesPrivate Lessons/Access & Inclusion Lessons
+
+How many students are interested in GOswim?*
+
+– Select Option –1234 or more
+
+What age group are student/s?*
+
+Infants and Toddlers: Under 3 years
+
+Preschool: 3-5 years
+
+Primary: 6 – 12 years
+
+Teen: 13 – 15 years
+
+Adult: 16 years +
+
+Please detail the student/s previous swim experience?*
+
+Student/s have participated in swim lessons
+
+Student/s have not participated in swim lessons before
+
+Only some students have participated in swim lessons
+
+What is your preferred lesson day/time? (subject to availability)*
+
+– Select Option –Weekday MorningWeekday AfternoonWeekend Morning
+
+Postcode
+
+Message
+
+How did you hear about us?
+
+– Select –Council News SourceLocal AdvertisingLocal News SourceSchool or Sports ClubSearch Engine (Google)Social Media (Facebook, Instagram)Streaming Service (YouTube, Spotify)Pop Up EventWord of Mouth
+
+Optin to our mailing list
+
+Opt in to our mailing list to receive the latest news, events and special offers
+
+Terms and Conditions*
+
+Yes, I agree to [Terms & Conditions](/terms-conditions) and [Privacy Policy](/privacy-policy)*
+
+__This field is hidden when viewing the form
+
+Venue Website
+
+ __This field is hidden when viewing the form
+
+Venue Name
+
+* [](https://recreation-base-template.bcms-recreation.com/wp-content/uploads/sites/16/2025/01/KH_004_BLSwim_100518.webp)
+
+* [](https://recreation-base-template.bcms-recreation.com/wp-content/uploads/sites/16/2024/08/BL-Aquatics-Group-Water-Safety-Image-1.jpg)
+
+* [](https://recreation-base-template.bcms-recreation.com/wp-content/uploads/sites/16/2024/08/BL-Aquatics-Swim-Teacher-and-Child-Image-1-scaled.jpg)
+
+* [](https://recreation-base-template.bcms-recreation.com/wp-content/uploads/sites/16/2024/08/BL-Aquatics-Children-Kickboards-Image-1-scaled.jpg)
+
+* [](https://recreation-base-template.bcms-recreation.com/wp-content/uploads/sites/16/2024/08/BL_Splish-Splash-Image-3-scaled-e1722597546414.jpg)
+
+* [](https://recreation-base-template.bcms-recreation.com/wp-content/uploads/sites/16/2024/08/BL-Aquatics-Child-Backstroke-Image-1-scaled.jpg)
+
+* [](https://recreation-base-template.bcms-recreation.com/wp-content/uploads/sites/16/2024/08/BL_Aquatics-Child-Freestyle-Image-2-scaled.jpg)
+
+### Why Choose GOswim?
+
+Developed by leading aquatic experts and endorsed by Swimming Australia, GOswim sets the benchmark for modern swim education. Discover the program shaping Australia’s approach to water safety.
+
+[Learn More](https://goswimaustralia.com.au)
+
+###### Inverell Aquatic Centre is now open! **[Become a member](/join/memberships) or [enrol in swimming lessons](/learn-to-swim/goswim-swimming-lessons/#goswim-enquiry) today!**
+
+Toggle Menu Close
+
+Search for:
+
+Search
+
+
+---
+
+## Page 5: https://inverellaquaticcentre.com.au/refer-a-friend-for-your-chance-to-win-and-inspire-a-love-of-swimming-2/
+
+Skip to content
+
+As a valued Member, you already know the importance of staying active, building confidence and feeling safe in and around water. Now’s your chance to spread the word and be rewarded in a big way!
+
+**We’re offering current, eligible members the chance to WIN a trip to see athletes from the Australian Dolphins Swim Team compete LIVE on the Gold Coast in 2026!**
+
+[refer a friend to gOswim for your chance to wIN!](https://www.goswimaustralia.com.au/refer-a-friend-competition-2025)
+
+Our GOswim Swimming and Water Safety Program is powered by Swimming Australia, the nation’s peak body for competitive and community swimming.
+
+Through our partnership, GOswim Australia brings the highest standards of swim education to local pools and communities across Australia, including ours!
+
+Together, we’re committed to promoting swimming and water safety for all ages, developing confident and capable swimmers, and supporting pathways from swimming lessons to elite competition.
+
+**Hear from Olympian Brad Woodward** and learn why swimming lessons matter and why your referral can make a difference for someone else.
+
+Whether you’ve been with us for years or just joined, your referral to GOswim lessons could lead you to cheering on Australia’s best on the Gold Coast!
+
+**When you refer a friend, you’re opening the door for them to gain skills that last a lifetime. You’ll be the reason they feel safe, confident, and ready for every water adventure.**
+
+_*Terms and Conditions apply. Open to eligible GOswim and venue members only. Competition ends 31 October 2025 at 11.59pm. See GOswim Australia website for full details._
+
+## Similar Posts
+
+  * [ ](https://inverellaquaticcentre.com.au/become-a-member/)
+
+We’re excited to announce that memberships to Inverell Aquatic Centre are now available! There’s no need to wait any longer, join as a full access or aquatic access member today and be ready for our venue opening early next year! See a full list of inclusions below: Membership Inclusions Full Access Member Aquatic Access Member Unlimited…
+
+  * [ ](https://inverellaquaticcentre.com.au/loneliness-awareness-week-2025/)
+
+It’s Loneliness Awareness Week! Loneliness is a critical issue and is recognised as a public health priority for many countries around the world. However, despite being highly prevalent, loneliness isn’t widely understood or spoken about in Australia. Loneliness Awareness Week, from Ending Loneliness Together, shines a spotlight on the shared experience of loneliness and calls…
+
+  * [ ](https://inverellaquaticcentre.com.au/its-world-mental-health-day/)
+
+It’s World Mental Health Day! World Mental Health Day is observed on 10 October each year as a global movement to raise awareness, reduce stigma, and encourage positive action for mental wellbeing. The day invites communities, workplaces, schools, and individuals to pause, reflect, and act in ways that strengthen social connection and mental health. About…
+
+  * [ ](https://inverellaquaticcentre.com.au/100-kickstart-towards-teen-goswim-lessons/)
+
+In response to Royal Life Saving’s recently released data that shows lifesaving skills of high school students are not up to standard, Inverell Aquatic Centre and Belgravia Leisure are urging families to act by enrolling teens with weak swimming skills in a learn to swim program. In response to this skill gap, we are offering a…
+
+  * [ ](https://inverellaquaticcentre.com.au/how-you-can-embrace-active-wellbeing-this-global-wellness-day/)
+
+Our individual health and wellbeing are paramount to enjoying a fulfilled life alongside our loved ones, engaging in countless valuable experiences to remember. This Global Wellness Day, we’re taking a closer look at how being more active, no matter your circumstance or ability, can positively boost your health and enjoyment of life. What is Global…
+
+  * [ ](https://inverellaquaticcentre.com.au/royal-life-saving-lifeguard-training-course/)
+
+On 26 and 27 April, Inverell Aquatic Centre will be hosting a Pool Lifeguard training course run by Royal Life Saving. Applicants will then be qualified to apply for employment at the newly opened aquatic centre. Applicants must be at least 16 years old, however they do not require any prior experience to sign up…
+
+
+
+
+###### Inverell Aquatic Centre is now open! **[Become a member](/join/memberships) or [enrol in swimming lessons](/learn-to-swim/goswim-swimming-lessons/#goswim-enquiry) today!**
+
+Toggle Menu Close
+
+Search for:
+
+Search
+
+
+---
+
+## Page 6: https://inverellaquaticcentre.com.au/venue/about-us/
+
+Skip to content
+
+# About Us
+
+## ******Our S****** tory
+
+Inverell Aquatic Centre is located in Inverell, New South Wales. Our facility consists of a 20m indoor program pool with moveable floor for adjustable depth, a 50m outdoor pool which becomes a 25m indoor pool in winter and an indoor splash park and toddler pool.  
+  
+Construction of Inverell Aquatic Centre has been underway since November 2023, and its 2025 opening brings state-of-the-art features to ensure everyone can get involved with the community facilities.   
+  
+We will also offer group exercise classes, function room hire, kids’ birthday parties and a small café, open seven days a week. We are the perfect place for our community to make new friends while working on your health and fitness.   
+  
+Parking and accessible parking will be available. We look forward to providing you with the best health and fitness experiences possible.
+
+### Our Facilities
+
+#### Aquatic Facilities
+
+Our aquatic facilities feature an indoor program pool, a 50m outdoor pool which becomes a 25m indoor pool in winter and a a splash park for the little ones to enjoy.
+
+[Learn More](/swim/aquatic-facilities/)
+
+#### Swimming Lessons
+
+GOswim swimming and water safety lessons are a fun and engaging way for kids and adults to learn to swim and be safe in aquatic environments. Suitable for infants from 6 months of age through to adults and offered all year round.
+
+[Learn More](/learn-to-swim/goswim-swimming-lessons/)
+
+#### Group Exercise
+
+Group Exercise classes are a great social way to help build your confidence, motivation and accountability whilst making you smile. Our timetable features classes ranging from strength-based through to wellness.
+
+[Learn More](/gym/group-exercise/)
+
+#### Café
+
+After building up an appetite swimming or enjoying a class, be sure to visit our café which offers a range of snacks, coffee and food options to replenish your energy.
+
+#### Accessibility
+
+We aim to provide a welcoming and comfortable environment for people of all abilities. Our facilities, programs and services have been designed to allow people of all abilities to lead active and healthy lifestyles.
+
+[Learn More](/venue/accessibility/)
+
+#### Birthday Parties
+
+Host your next birthday party with us, the only thing you need to do is send the invitations and bring the kids. We will organise everything and even clean up all the mess so you can enjoy a stress-free party with your children.
+
+[Learn More](/venue/birthday-parties/)
+
+### _Explore membership options_
+
+We have a range of memberships to suit all health and wellbeing goals and budgets.  
+Join our community today.
+
+[View Memberships](/join/memberships/)
+
+###### Inverell Aquatic Centre is now open! **[Become a member](/join/memberships) or [enrol in swimming lessons](/learn-to-swim/goswim-swimming-lessons/#goswim-enquiry) today!**
+
+Toggle Menu Close
+
+Search for:
+
+Search
+
+
+---
+
+## Page 7: https://inverellaquaticcentre.com.au/join/memberships
+
+Skip to content
+
+# **Memberships**
+
+## Membership Options
+
+There are many benefits to being a member and staying active at Inverell Aquatic Centre. Our state-of-the-art facility will offer a number of aquatic spaces with aquatic programming such as aqua aerobics and water therapy. Our group exercise room will also host an array of classes for full access members.  
+  
+Become a member of Inverell Aquatic Centre in a few clicks by starting a new membership online.  
+  
+Membership start dates are subject to change pending confirmation of the Inverell Aquatic Centre’s opening date. Centre updates will be communicated with members in the lead up to opening.
+
+  * **AQUATIC MEMBERSHIP**
+
+## $15.60
+
+per week
+
+    * Aquatics Access
+
+* * *
+
+Concession $13.00 per week
+
+[Join Now](https://blau.activeworld.com.au/purchase_membership?centre_name=Inverell%20Aquatic%20Centre&for_what=membership&mpc_code=IAC-DD-AQ)
+
+  * **FULL ACCESS MEMBERSHIP**
+
+## $18.20
+
+per week
+
+    * Aquatics Access
+    * Unlimited Aqua Aerobics
+    * Unlimited Group Exercise Classes
+
+* * *
+
+Concession $15.60 per week
+
+[Join Now](https://blau.activeworld.com.au/purchase_membership?centre_name=Inverell%20Aquatic%20Centre&for_what=membership&mpc_code=IAC-DD-FA)
+
+
+
+
+### Join a Group Exercise class
+
+Full access members get unlimited access to our group exercise classes.   
+Learn more at the link below.
+
+[Learn More](/group-exercise/)
+
+###### Inverell Aquatic Centre is now open! **[Become a member](/join/memberships) or [enrol in swimming lessons](/learn-to-swim/goswim-swimming-lessons/#goswim-enquiry) today!**
+
+Toggle Menu Close
+
+Search for:
+
+Search
+
+
+---
+
+## Page 8: https://inverellaquaticcentre.com.au/news
+
+Skip to content
+
+# News
+
+All
+
+News
+
+General
+
+Blog
+
+  * [](https://inverellaquaticcentre.com.au/its-world-mental-health-day/)
+
+    * News
+
+## It’s World Mental Health Day!
+
+It’s World Mental Health Day! World Mental Health Day is observed on 10 October each year as a global movement to raise awareness, reduce… 
+
+[Read More](https://inverellaquaticcentre.com.au/its-world-mental-health-day/)
+
+  * [](https://inverellaquaticcentre.com.au/say-yes-to-you-make-time-to-move/)
+
+    * General
+
+## Say Yes to You: Make Time to Move
+
+Women’s Health Week 2025 It’s Women’s Health Week 2025! From the 1st – 5th of September 2025, we are focussing on the health and… 
+
+[Read More](https://inverellaquaticcentre.com.au/say-yes-to-you-make-time-to-move/)
+
+  * [](https://inverellaquaticcentre.com.au/refer-a-friend-for-your-chance-to-win-and-inspire-a-love-of-swimming-2/)
+
+    * News
+
+## Refer a friend for your chance to WIN and inspire a love of swimming!
+
+As a valued Member, you already know the importance of staying active, building confidence and feeling safe in and around water. Now’s your chance… 
+
+[Read More](https://inverellaquaticcentre.com.au/refer-a-friend-for-your-chance-to-win-and-inspire-a-love-of-swimming-2/)
+
+  * [](https://inverellaquaticcentre.com.au/making-the-most-of-your-winter-swimming-lessons/)
+
+    * General
+
+## Making the most of your winter swimming lessons!
+
+While winter invites us to slow down, staying in swimming lessons keeps confidence growing. Maintaining your child’s enrolment during these colder months is crucial… 
+
+[Read More](https://inverellaquaticcentre.com.au/making-the-most-of-your-winter-swimming-lessons/)
+
+  * [](https://inverellaquaticcentre.com.au/loneliness-awareness-week-2025/)
+
+    * News
+
+## Loneliness Awareness Week 2025
+
+It’s Loneliness Awareness Week! Loneliness is a critical issue and is recognised as a public health priority for many countries around the world. However,… 
+
+[Read More](https://inverellaquaticcentre.com.au/loneliness-awareness-week-2025/)
+
+  * [](https://inverellaquaticcentre.com.au/inverell-aquatic-centre-recognised-for-excellence-in-innovation/)
+
+    * News
+
+## Inverell Aquatic Centre recognised for excellence in innovation
+
+Inverell Aquatic Centre has been honoured with the Excellence in Innovation Award at the prestigious Aquas Awards Gala, hosted by Royal Life Saving. This… 
+
+[Read More](https://inverellaquaticcentre.com.au/inverell-aquatic-centre-recognised-for-excellence-in-innovation/)
+
+
+
+
+### Check out our latest events
+
+[Latest Events](/events/)
+
+###### Inverell Aquatic Centre is now open! **[Become a member](/join/memberships) or [enrol in swimming lessons](/learn-to-swim/goswim-swimming-lessons/#goswim-enquiry) today!**
+
+Toggle Menu Close
+
+Search for:
+
+Search
+
+
+---
+
+## Page 9: https://inverellaquaticcentre.com.au/swim/aquatic-facilities/
+
+Skip to content
+
+# Aquatic Facilities
+
+## **Aquatic Facilitie** s
+
+Inverell Aquatic Centre offers a wide variety of aquatic facilities ensuring there is something for everyone to enjoy all year round. Including an indoor program pool, a 50m outdoor pool which becomes a 25m indoor pool in winter and an indoor splash park and toddler pool.
+
+### Explore our Aquatic Facilities
+
+#### Indoor/Outdoor pool
+
+Our eight-lane pool will be a big hit with competition swimmers, fitness swimmers, school groups and swimming clubs. This pool transforms from a 50m outdoor pool in the summer months to a 25m indoor pool in winter.
+
+#### Program pool
+
+Our program pool includes a moveable floor that can be lowered and risen to cater for specific programs and exercises such as warm water aqua classes though to infant swimming lessons.
+
+#### Splashpad
+
+Our splashpad is sure to keep little ones engaged and entertained with a water discovery experiences that includes water sprays, geysers and waterfalls!
+
+#### Toddler pool
+
+Our toddler pool will entertain kids and allow them to explore the water in a shallow and safe environment.
+
+#### Changerooms
+
+All changerooms, including family changerooms, are conveniently located near pool deck for easy access before and after your swim. 
+
+#### Lockers
+
+Lockers are available for members to use when accessing our facilities. [Directions on how to use the lockers e.g. please use your access fob to lock and unlock your locker each visit.]
+
+#### **Swimwear Policy**
+
+Appropriate swimwear must be worn at all times to maintain a clean, safe and inviting environment for all our patrons. Clothing, other than swimwear, can create problems with water clarity, pool disinfectant and our water filtration systems.
+
+### _Be sure to swim safe_
+
+Enjoy the water safely by following our Aquatic Supervision policies and Vulnerable Swimmer processes.  
+[](https://ashfordswimmingpool.com.au/swim/aquatic-supervision/)
+
+[Learn more](/swim/aquatic-supervision/)
+
+###### Inverell Aquatic Centre is now open! **[Become a member](/join/memberships) or [enrol in swimming lessons](/learn-to-swim/goswim-swimming-lessons/#goswim-enquiry) today!**
+
+Toggle Menu Close
+
+Search for:
+
+Search
+
+
+---
+
+## Page 10: https://inverellaquaticcentre.com.au/say-yes-to-you-make-time-to-move/
+
+Skip to content
+
+## Women’s Health Week 2025
+
+It’s Women’s Health Week 2025! From the 1st – 5th of September 2025, we are focussing on the health and wellbeing of all women. This year the theme of Women’s Health Week is ‘Say Yes to You’, a powerful reminder that prioritising your health begins with movement that feels right for you. Whether small or bold, every choice to move supports your physical, mental, and social wellbeing.
+
+Read more about the health tips to follow this week from our Group Health and Wellbeing Manager, Victoria Goodwin-Barlow, and our Allied Health Manager, Kia Naylor.
+
+### Top tips to stay on top of your health
+
+Every woman’s health journey is unique and deserves personalised care that reflects her own goals, experiences, and needs. Supporting women to embrace their individual path is key to true wellbeing. Moving more doesn’t have to mean hours at the gym or strict workout schedules. It can be simple, enjoyable, and seamlessly woven into daily life. For example:  
+• Taking a brisk walk during your lunch break  
+• Choosing the stairs instead of the lift  
+• Playing a social round of golf or sport with friends  
+• Recharging with an active weekend away glamping, hiking, or cycling
+
+Every step is an investment in your wellbeing, lifting energy, boosting mood, and strengthening your connection to yourself and others.
+
+Allied Health Manager, Kia Naylor
+
+### Why is exercise so important?
+
+Recent research shows that walking just 7,000 steps a day can cut the risk of cardiovascular disease, dementia, diabetes, and depression, while lowering the chance of early death by up to 47%*.
+
+This benchmark offers nearly the same benefits as the traditional 10,000-step goal, making it a realistic, sustainable target for busy women who often don’t have time to say yes to themselves. Choose movement that feels right for you.
+
+Whether it’s a gentle stroll, a lively group class, a team sport, or an outdoor adventure, your health journey should reflect your lifestyle, preferences, and needs.
+
+Group Health and Wellbeing Manager, Victoria Goodwin-Barlow
+
+### Say Yes to You, Say Yes to Movement
+
+This Women’s Health Week, saying yes to you means making some time for yourself and trying to add some movement. Being active energises, restores, and empowers. Whether it’s a short walk, a social sport, or an adventurous weekend away, moving your body is one of the most powerful acts of self-care you can give yourself. Say yes to you because every choice to move is an investment in your health and happiness!  
+  
+Learn more about Women’s Health Week today via the link below or chat to our team today to see how you can get active at our venue today!
+
+[Learn more today](http://www.jeanhailes.org.au/womens-health-week)
+
+_*Scientific studies beginning with a global meta-analysis led by researchers at the University of Sydney (published in The Lancet Public Health)._
+
+## Similar Posts
+
+  * [ ](https://inverellaquaticcentre.com.au/making-the-most-of-your-winter-swimming-lessons/)
+
+While winter invites us to slow down, staying in swimming lessons keeps confidence growing. Maintaining your child’s enrolment during these colder months is crucial – not just for their skill progression, but for their safety and overall development. Continuing lessons throughout winter offers numerous advantages: To ensure a comfortable and enjoyable swim lesson experience: By…
+
+  * [ ](https://inverellaquaticcentre.com.au/now-open-celebrate-with-free-entry-on-weekends/)
+
+Inverell Aquatic Centre is now open. We’d like to thank the Inverell Shire Council and Hines Construction for their hard work and dedication in redeveloping the site of the Inverell Memorial Swimming Pool. We look forward to servicing the Inverell community and making Inverell Aquatic Centre your one-stop-shop for aquatics, health and wellness for generations to come….
+
+  * [ ](https://inverellaquaticcentre.com.au/royal-life-saving-lifeguard-training-course/)
+
+On 26 and 27 April, Inverell Aquatic Centre will be hosting a Pool Lifeguard training course run by Royal Life Saving. Applicants will then be qualified to apply for employment at the newly opened aquatic centre. Applicants must be at least 16 years old, however they do not require any prior experience to sign up…
+
+
+
+
+###### Inverell Aquatic Centre is now open! **[Become a member](/join/memberships) or [enrol in swimming lessons](/learn-to-swim/goswim-swimming-lessons/#goswim-enquiry) today!**
+
+Toggle Menu Close
+
+Search for:
+
+Search
+
+
+---
+

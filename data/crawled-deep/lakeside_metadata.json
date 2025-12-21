@@ -1,0 +1,48 @@
+{
+  "centre_id": "lakeside",
+  "base_url": "https://www.lakesideleisure.com.au/",
+  "pages": [
+    {
+      "url": "https://www.lakesideleisure.com.au/",
+      "length": 9832
+    },
+    {
+      "url": "https://www.lakesideleisure.com.au/join/member-benefits",
+      "length": 6759
+    },
+    {
+      "url": "https://www.lakesideleisure.com.au/learn-to-swim/school-programs",
+      "length": 5706
+    },
+    {
+      "url": "https://www.lakesideleisure.com.au/swim/lap-lane-availability",
+      "length": 4378
+    },
+    {
+      "url": "https://www.lakesideleisure.com.au/contact-us/location",
+      "length": 4324
+    },
+    {
+      "url": "https://www.lakesideleisure.com.au/train/fitness-facilities",
+      "length": 5162
+    },
+    {
+      "url": "https://www.lakesideleisure.com.au/swim/squads",
+      "length": 4918
+    },
+    {
+      "url": "https://www.lakesideleisure.com.au/venue/entry-fees",
+      "length": 5842
+    },
+    {
+      "url": "https://www.lakesideleisure.com.au/venue/active-world",
+      "length": 11398
+    },
+    {
+      "url": "https://www.lakesideleisure.com.au/train/group-classes",
+      "length": 5804
+    }
+  ],
+  "total_pages": 10,
+  "total_chars": 64123
+}

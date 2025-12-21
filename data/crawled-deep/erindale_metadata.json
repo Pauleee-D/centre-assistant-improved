@@ -1,0 +1,44 @@
+{
+  "centre_id": "erindale",
+  "base_url": "https://erindaleleisurecentre.com.au/",
+  "pages": [
+    {
+      "url": "https://erindaleleisurecentre.com.au/",
+      "length": 3484
+    },
+    {
+      "url": "https://erindaleleisurecentre.com.au/venue/about-us/",
+      "length": 2323
+    },
+    {
+      "url": "https://erindaleleisurecentre.com.au/learn-to-swim/goswim-swimming-lessons/",
+      "length": 9892
+    },
+    {
+      "url": "https://erindaleleisurecentre.com.au/join/memberships/",
+      "length": 2057
+    },
+    {
+      "url": "https://erindaleleisurecentre.com.au/gym/",
+      "length": 1127
+    },
+    {
+      "url": "https://erindaleleisurecentre.com.au/learn-to-swim/",
+      "length": 1786
+    },
+    {
+      "url": "https://erindaleleisurecentre.com.au/swim/",
+      "length": 1749
+    },
+    {
+      "url": "https://erindaleleisurecentre.com.au/venue/opening-hours/",
+      "length": 611
+    },
+    {
+      "url": "https://erindaleleisurecentre.com.au/refer-a-friend-for-your-chance-to-win-and-inspire-a-love-of-swimming-2/",
+      "length": 3532
+    }
+  ],
+  "total_pages": 9,
+  "total_chars": 26561
+}

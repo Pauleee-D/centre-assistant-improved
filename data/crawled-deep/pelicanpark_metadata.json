@@ -1,0 +1,48 @@
+{
+  "centre_id": "pelicanpark",
+  "base_url": "https://www.pelicanparkrec.com.au/",
+  "pages": [
+    {
+      "url": "https://www.pelicanparkrec.com.au/",
+      "length": 7810
+    },
+    {
+      "url": "https://www.pelicanparkrec.com.au/learn-to-swim/access-inclusion-water-safety",
+      "length": 5761
+    },
+    {
+      "url": "https://www.pelicanparkrec.com.au/getmedia/a741e22a-6e09-46c4-bb40-f0a75f1c8d24/pelican-park-holiday-opening-hours-(2).png",
+      "length": 462717
+    },
+    {
+      "url": "https://www.pelicanparkrec.com.au/learn-to-swim/babies-toddlers",
+      "length": 7148
+    },
+    {
+      "url": "https://www.pelicanparkrec.com.au/contact-us/location",
+      "length": 5033
+    },
+    {
+      "url": "https://www.pelicanparkrec.com.au/learn-to-swim/enrolment",
+      "length": 6753
+    },
+    {
+      "url": "https://www.pelicanparkrec.com.au/learn-to-swim/goswim-academy",
+      "length": 6545
+    },
+    {
+      "url": "https://www.pelicanparkrec.com.au/footer-links/memberships-passes",
+      "length": 11803
+    },
+    {
+      "url": "https://www.pelicanparkrec.com.au/promotions/join-now",
+      "length": 9755
+    },
+    {
+      "url": "https://www.pelicanparkrec.com.au/venue/opening-hours",
+      "length": 4833
+    }
+  ],
+  "total_pages": 10,
+  "total_chars": 528158
+}

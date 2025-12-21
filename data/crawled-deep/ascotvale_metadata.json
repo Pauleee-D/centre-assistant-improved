@@ -1,0 +1,48 @@
+{
+  "centre_id": "ascotvale",
+  "base_url": "https://www.movemv.com.au/ascot-vale-leisure-centre/",
+  "pages": [
+    {
+      "url": "https://www.movemv.com.au/ascot-vale-leisure-centre/",
+      "length": 3536
+    },
+    {
+      "url": "https://www.movemv.com.au/swim/lap-lane-availability/",
+      "length": 3676
+    },
+    {
+      "url": "https://www.movemv.com.au/gym/",
+      "length": 4422
+    },
+    {
+      "url": "https://www.movemv.com.au/swim/aaa-swim-and-social-program/",
+      "length": 3825
+    },
+    {
+      "url": "https://www.movemv.com.au/swim/womens-only-swimming/",
+      "length": 1837
+    },
+    {
+      "url": "https://www.movemv.com.au/gym/group-exercise/",
+      "length": 17628
+    },
+    {
+      "url": "https://www.movemv.com.au/learn-to-swim/",
+      "length": 3979
+    },
+    {
+      "url": "https://www.movemv.com.au/join/memberships/",
+      "length": 10827
+    },
+    {
+      "url": "https://www.movemv.com.au/gov-kids-voucher-program/",
+      "length": 3129
+    },
+    {
+      "url": "https://www.movemv.com.au/swim/",
+      "length": 4584
+    }
+  ],
+  "total_pages": 10,
+  "total_chars": 57443
+}

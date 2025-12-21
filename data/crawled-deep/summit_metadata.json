@@ -1,0 +1,48 @@
+{
+  "centre_id": "summit",
+  "base_url": "https://summitaquaticleisure.com.au/",
+  "pages": [
+    {
+      "url": "https://summitaquaticleisure.com.au/",
+      "length": 3520
+    },
+    {
+      "url": "https://summitaquaticleisure.com.au/community-weekend/",
+      "length": 4604
+    },
+    {
+      "url": "https://summitaquaticleisure.com.au/join/memberships/",
+      "length": 2313
+    },
+    {
+      "url": "https://summitaquaticleisure.com.au/news",
+      "length": 2372
+    },
+    {
+      "url": "https://summitaquaticleisure.com.au/learn-to-swim/",
+      "length": 1038
+    },
+    {
+      "url": "https://summitaquaticleisure.com.au/swim/",
+      "length": 1027
+    },
+    {
+      "url": "https://summitaquaticleisure.com.au/health-club/",
+      "length": 1507
+    },
+    {
+      "url": "https://summitaquaticleisure.com.au/venue/about-us/",
+      "length": 2507
+    },
+    {
+      "url": "https://summitaquaticleisure.com.au/say-yes-to-you-make-time-to-move/",
+      "length": 5559
+    },
+    {
+      "url": "https://summitaquaticleisure.com.au/learn-to-swim/goswim-swimming-lessons/",
+      "length": 9852
+    }
+  ],
+  "total_pages": 10,
+  "total_chars": 34299
+}

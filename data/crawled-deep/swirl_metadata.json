@@ -1,0 +1,48 @@
+{
+  "centre_id": "swirl",
+  "base_url": "https://www.swirltas.com.au/",
+  "pages": [
+    {
+      "url": "https://www.swirltas.com.au/",
+      "length": 7764
+    },
+    {
+      "url": "https://www.swirltas.com.au/contact-us/get-in-touch",
+      "length": 4890
+    },
+    {
+      "url": "https://www.swirltas.com.au/train/memberships-passes",
+      "length": 6134
+    },
+    {
+      "url": "https://www.swirltas.com.au/venue/entry-fees",
+      "length": 4543
+    },
+    {
+      "url": "https://www.swirltas.com.au/venue/opening-hours",
+      "length": 4009
+    },
+    {
+      "url": "https://www.swirltas.com.au/play/facilities",
+      "length": 4404
+    },
+    {
+      "url": "https://www.swirltas.com.au/swim/aqua-aerobics",
+      "length": 5683
+    },
+    {
+      "url": "https://www.swirltas.com.au/contact-us/location",
+      "length": 4061
+    },
+    {
+      "url": "https://www.swirltas.com.au/news/swirl-6-month-free-membership-promo-terms-and-cond",
+      "length": 7669
+    },
+    {
+      "url": "https://www.swirltas.com.au/venue/kids-pool-party",
+      "length": 4555
+    }
+  ],
+  "total_pages": 10,
+  "total_chars": 53712
+}

@@ -1,0 +1,48 @@
+{
+  "centre_id": "trac",
+  "base_url": "https://www.trac.com.au/",
+  "pages": [
+    {
+      "url": "https://www.trac.com.au/",
+      "length": 4845
+    },
+    {
+      "url": "https://www.trac.com.au/swim/",
+      "length": 2105
+    },
+    {
+      "url": "https://www.trac.com.au/join/memberships/",
+      "length": 8653
+    },
+    {
+      "url": "https://www.trac.com.au/learn-to-swim/goswim-swimming-lessons/",
+      "length": 9900
+    },
+    {
+      "url": "https://www.trac.com.au/venue/opening-hours/",
+      "length": 1422
+    },
+    {
+      "url": "https://www.trac.com.au/gym/",
+      "length": 2210
+    },
+    {
+      "url": "https://www.trac.com.au/gym/group-exercise/",
+      "length": 7185
+    },
+    {
+      "url": "https://www.trac.com.au/venue/about-us/",
+      "length": 3012
+    },
+    {
+      "url": "https://www.trac.com.au/contact/employment/",
+      "length": 1827
+    },
+    {
+      "url": "https://www.trac.com.au/summer-holiday-programs/",
+      "length": 4182
+    }
+  ],
+  "total_pages": 10,
+  "total_chars": 45341
+}

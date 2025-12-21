@@ -1,0 +1,48 @@
+{
+  "centre_id": "yarrambatparkgolfcourse",
+  "base_url": "https://www.yarrambatgolf.com.au/",
+  "pages": [
+    {
+      "url": "https://www.yarrambatgolf.com.au/",
+      "length": 13112
+    },
+    {
+      "url": "https://www.yarrambatgolf.com.au/play/teemates",
+      "length": 5058
+    },
+    {
+      "url": "https://www.yarrambatgolf.com.au/contact-us/testimonials",
+      "length": 3559
+    },
+    {
+      "url": "https://www.yarrambatgolf.com.au/learn/resident-golf-pro",
+      "length": 4862
+    },
+    {
+      "url": "https://www.yarrambatgolf.com.au/join/yarrambat-golf-club-inc",
+      "length": 4217
+    },
+    {
+      "url": "https://www.yarrambatgolf.com.au/learn/womens-golf-pathway",
+      "length": 8127
+    },
+    {
+      "url": "https://www.yarrambatgolf.com.au/contact-us/location",
+      "length": 4430
+    },
+    {
+      "url": "https://www.yarrambatgolf.com.au/contact-us/get-in-touch",
+      "length": 5178
+    },
+    {
+      "url": "https://www.yarrambatgolf.com.au/venue/the-grass-lands",
+      "length": 6903
+    },
+    {
+      "url": "https://www.yarrambatgolf.com.au/contact-us/employment",
+      "length": 4460
+    }
+  ],
+  "total_pages": 10,
+  "total_chars": 59906
+}

@@ -1,0 +1,36 @@
+{
+  "centre_id": "swell",
+  "base_url": "https://www.swellpalmerston.com.au/",
+  "pages": [
+    {
+      "url": "https://www.swellpalmerston.com.au/",
+      "length": 3432
+    },
+    {
+      "url": "https://www.swellpalmerston.com.au/venue/about-us/",
+      "length": 2901
+    },
+    {
+      "url": "https://www.swellpalmerston.com.au/gym/",
+      "length": 1103
+    },
+    {
+      "url": "https://www.swellpalmerston.com.au/venue/opening-hours/",
+      "length": 619
+    },
+    {
+      "url": "https://www.swellpalmerston.com.au/learn-to-swim/",
+      "length": 1130
+    },
+    {
+      "url": "https://www.swellpalmerston.com.au/join/memberships/",
+      "length": 1267
+    },
+    {
+      "url": "https://www.swellpalmerston.com.au/swim/",
+      "length": 2025
+    }
+  ],
+  "total_pages": 7,
+  "total_chars": 12477
+}

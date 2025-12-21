@@ -1,0 +1,48 @@
+{
+  "centre_id": "bundaberg",
+  "base_url": "https://bundabergaquaticcentre.com.au/",
+  "pages": [
+    {
+      "url": "https://bundabergaquaticcentre.com.au/",
+      "length": 3448
+    },
+    {
+      "url": "https://bundabergaquaticcentre.com.au/venue/opening-hours/",
+      "length": 723
+    },
+    {
+      "url": "https://bundabergaquaticcentre.com.au/venue/about-us/",
+      "length": 2081
+    },
+    {
+      "url": "https://bundabergaquaticcentre.com.au/learn-to-swim/goswim-swimming-lessons/",
+      "length": 8734
+    },
+    {
+      "url": "https://bundabergaquaticcentre.com.au/book-a-tour/",
+      "length": 4350
+    },
+    {
+      "url": "https://bundabergaquaticcentre.com.au/join/memberships/",
+      "length": 1898
+    },
+    {
+      "url": "https://bundabergaquaticcentre.com.au/reformer-pilates/",
+      "length": 3109
+    },
+    {
+      "url": "https://bundabergaquaticcentre.com.au/swim/",
+      "length": 1114
+    },
+    {
+      "url": "https://bundabergaquaticcentre.com.au/visit-our-reception-this-week/",
+      "length": 4974
+    },
+    {
+      "url": "https://bundabergaquaticcentre.com.au/learn-to-swim/",
+      "length": 2267
+    }
+  ],
+  "total_pages": 10,
+  "total_chars": 32698
+}

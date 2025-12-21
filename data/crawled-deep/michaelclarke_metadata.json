@@ -1,0 +1,48 @@
+{
+  "centre_id": "michaelclarke",
+  "base_url": "https://www.michaelclarkecentre.com.au/",
+  "pages": [
+    {
+      "url": "https://www.michaelclarkecentre.com.au/",
+      "length": 8236
+    },
+    {
+      "url": "https://www.michaelclarkecentre.com.au/venue/creche",
+      "length": 4419
+    },
+    {
+      "url": "https://www.michaelclarkecentre.com.au/train/membership-enquiry",
+      "length": 4197
+    },
+    {
+      "url": "https://www.michaelclarkecentre.com.au/venue/operating-hours",
+      "length": 4071
+    },
+    {
+      "url": "https://www.michaelclarkecentre.com.au/train/timetables",
+      "length": 4694
+    },
+    {
+      "url": "https://www.michaelclarkecentre.com.au/train/begin-program",
+      "length": 7270
+    },
+    {
+      "url": "https://www.michaelclarkecentre.com.au/train/group-classes",
+      "length": 5020
+    },
+    {
+      "url": "https://www.michaelclarkecentre.com.au/join/free-1-day-trial",
+      "length": 4562
+    },
+    {
+      "url": "https://www.michaelclarkecentre.com.au/contact-us/employment",
+      "length": 4349
+    },
+    {
+      "url": "https://www.michaelclarkecentre.com.au/join/memberships-passes",
+      "length": 5621
+    }
+  ],
+  "total_pages": 10,
+  "total_chars": 52439
+}

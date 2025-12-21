@@ -33,7 +33,7 @@ const centreWebsites: Record<string, string> = {
   kurrikurri: 'https://www.kurrikurriafc.com.au/',
   lakeside: 'https://www.lakesideleisure.com.au/',
   loftus: 'https://www.loftusrecreationcentre.com.au/',
-  manningmidcoasttaree: 'https://www.manningmidcoast.com.au/',
+  manningmidcoasttaree: 'https://manningalc.com.au/',
   mansfieldswimmingpool: 'https://www.mansfieldswimmingpool.com.au/',
   michaelclarke: 'https://www.michaelclarkecentre.com.au/',
   michaelwenden: 'https://www.wendenpool.com.au/',
@@ -61,9 +61,9 @@ const centreWebsites: Record<string, string> = {
   wulanda: 'https://www.wulanda.com.au/',
   yawa: 'https://www.yawa.com.au/',
   yarra: 'https://www.yarracentre.com.au/',
-  yarrambatparkgolfcourse: 'https://www.yarrambatparkgolf.com.au/',
+  yarrambatparkgolfcourse: 'https://www.yarrambatgolf.com.au/',
   higherstatemelbairport: 'https://www.higherstate.com.au/',
-  inverellaquaticcentre: 'https://www.inverellaquatic.com.au/',
+  inverellaquaticcentre: 'https://inverellaquaticcentre.com.au/',
   centrepointblayney: 'http://www.centrepointblayney.com.au/',
   robinvale: 'https://www.robinvalerac.com.au/',
 };
@@ -76,6 +76,7 @@ export default function Home() {
   const [selectedCentre, setSelectedCentre] = useState('all');
   const [feedbackGiven, setFeedbackGiven] = useState(false);
   const [feedbackRating, setFeedbackRating] = useState<'positive' | 'negative' | null>(null);
+  const [sources, setSources] = useState<Array<{url: string, title: string}>>([]);
 
   // Get unique states from centres data
   const states = useMemo(() => {
@@ -108,11 +109,13 @@ export default function Home() {
     e.preventDefault();
     setLoading(true);
     setAnswer('');
+    setSources([]);
     setFeedbackGiven(false);
     setFeedbackRating(null);
 
     try {
-      const response = await fetch('/api/query', {
+      // Use local API for testing with combined markdown files
+      const response = await fetch('/api/query-local', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ question, centre: selectedCentre }),
@@ -120,6 +123,7 @@ export default function Home() {
 
       const data = await response.json();
       setAnswer(data.answer || data.error);
+      setSources(data.sources || []);
     } catch (error) {
       setAnswer('Error: Failed to get response');
     } finally {
@@ -251,6 +255,25 @@ export default function Home() {
         <div className="mt-8 p-6 bg-gray-100 dark:bg-gray-800 rounded-lg border dark:border-gray-700">
           <h2 className="text-xl font-semibold mb-2 text-black dark:text-white">Answer:</h2>
           <FormattedAnswer answer={answer} />
+
+          {sources.length > 0 && (
+            <div className="mt-4 pt-4 border-t border-gray-300 dark:border-gray-600">
+              <h3 className="text-sm font-semibold text-gray-700 dark:text-gray-300 mb-2">Sources:</h3>
+              <div className="flex flex-wrap gap-2">
+                {sources.map((source, idx) => (
+                  <a
+                    key={idx}
+                    href={source.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-sm px-3 py-1 bg-blue-100 dark:bg-blue-900 text-blue-700 dark:text-blue-300 rounded-full hover:bg-blue-200 dark:hover:bg-blue-800 transition-colors"
+                  >
+                    {source.title} →
+                  </a>
+                ))}
+              </div>
+            </div>
+          )}
 
           <div className="mt-4 pt-4 border-t border-gray-300 dark:border-gray-600">
             <p className="text-sm text-gray-600 dark:text-gray-400 mb-2">Was this answer helpful?</p>

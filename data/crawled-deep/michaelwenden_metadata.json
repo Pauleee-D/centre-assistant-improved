@@ -1,0 +1,48 @@
+{
+  "centre_id": "michaelwenden",
+  "base_url": "https://www.wendenpool.com.au/",
+  "pages": [
+    {
+      "url": "https://www.wendenpool.com.au/",
+      "length": 10170
+    },
+    {
+      "url": "https://www.wendenpool.com.au/play/basketball",
+      "length": 4917
+    },
+    {
+      "url": "https://www.wendenpool.com.au/venue/kiosk",
+      "length": 4804
+    },
+    {
+      "url": "https://www.wendenpool.com.au/train/memberships-passes",
+      "length": 6723
+    },
+    {
+      "url": "https://www.wendenpool.com.au/venue/shop",
+      "length": 7589
+    },
+    {
+      "url": "https://www.wendenpool.com.au/news/say-yes-to-you-make-time-to-move",
+      "length": 7332
+    },
+    {
+      "url": "https://www.wendenpool.com.au/news/refer-a-friend-to-goswim-for-your-chance-to-win",
+      "length": 5978
+    },
+    {
+      "url": "https://www.wendenpool.com.au/learn-to-swim/children",
+      "length": 5849
+    },
+    {
+      "url": "https://www.wendenpool.com.au/venue/about-us",
+      "length": 6687
+    },
+    {
+      "url": "https://www.wendenpool.com.au/learn-to-swim/school-programs",
+      "length": 6184
+    }
+  ],
+  "total_pages": 10,
+  "total_chars": 66233
+}

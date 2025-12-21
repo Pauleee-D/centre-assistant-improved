@@ -1,0 +1,44 @@
+{
+  "centre_id": "jackhort",
+  "base_url": "https://www.jackhortmcp.com.au/",
+  "pages": [
+    {
+      "url": "https://www.jackhortmcp.com.au/",
+      "length": 3438
+    },
+    {
+      "url": "https://www.jackhortmcp.com.au/venue/opening-hours/",
+      "length": 513
+    },
+    {
+      "url": "https://www.jackhortmcp.com.au/learn-to-swim/goswim-swimming-lessons/",
+      "length": 9913
+    },
+    {
+      "url": "https://www.jackhortmcp.com.au/swim/aqua-aerobics/",
+      "length": 1962
+    },
+    {
+      "url": "https://www.jackhortmcp.com.au/join/memberships/",
+      "length": 1942
+    },
+    {
+      "url": "https://www.jackhortmcp.com.au/learn-to-swim/",
+      "length": 1459
+    },
+    {
+      "url": "https://www.jackhortmcp.com.au/increasing-accessibility-at-jack-hort-memorial-community-pool-with-our-new-platypus-pool-steps/",
+      "length": 4952
+    },
+    {
+      "url": "https://www.jackhortmcp.com.au/swim/",
+      "length": 2058
+    },
+    {
+      "url": "https://www.jackhortmcp.com.au/venue/about-us/",
+      "length": 2595
+    }
+  ],
+  "total_pages": 9,
+  "total_chars": 28832
+}

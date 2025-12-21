@@ -1,0 +1,48 @@
+{
+  "centre_id": "monbulk",
+  "base_url": "https://www.monbulkaquatic.com.au/",
+  "pages": [
+    {
+      "url": "https://www.monbulkaquatic.com.au/",
+      "length": 3821
+    },
+    {
+      "url": "https://www.monbulkaquatic.com.au/venue/opening-hours/",
+      "length": 666
+    },
+    {
+      "url": "https://www.monbulkaquatic.com.au/learn-to-swim/",
+      "length": 1774
+    },
+    {
+      "url": "https://www.monbulkaquatic.com.au/its-world-mental-health-day/",
+      "length": 5670
+    },
+    {
+      "url": "https://www.monbulkaquatic.com.au/venue/about-us/",
+      "length": 3152
+    },
+    {
+      "url": "https://www.monbulkaquatic.com.au/join/memberships/",
+      "length": 4471
+    },
+    {
+      "url": "https://www.monbulkaquatic.com.au/learn-to-swim/goswim-swimming-lessons/",
+      "length": 9880
+    },
+    {
+      "url": "https://www.monbulkaquatic.com.au/she-moves-inspires-yarra-ranges-girls-to-get-active-and-connected/",
+      "length": 4328
+    },
+    {
+      "url": "https://www.monbulkaquatic.com.au/swim/",
+      "length": 2393
+    },
+    {
+      "url": "https://www.monbulkaquatic.com.au/say-yes-to-you-make-time-to-move/",
+      "length": 5852
+    }
+  ],
+  "total_pages": 10,
+  "total_chars": 42007
+}

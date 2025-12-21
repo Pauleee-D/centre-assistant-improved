@@ -1,0 +1,20 @@
+{
+  "centre_id": "albanycreek",
+  "base_url": "https://albanycreeklc.com.au",
+  "pages": [
+    {
+      "url": "https://albanycreeklc.com.au",
+      "length": 3535
+    },
+    {
+      "url": "https://albanycreeklc.com.au/join/memberships/",
+      "length": 2292
+    },
+    {
+      "url": "https://albanycreeklc.com.au/venue/about-us/",
+      "length": 2984
+    }
+  ],
+  "total_pages": 3,
+  "total_chars": 8811
+}

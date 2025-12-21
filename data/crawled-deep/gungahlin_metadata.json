@@ -1,0 +1,48 @@
+{
+  "centre_id": "gungahlin",
+  "base_url": "https://www.gungahlinleisurecentre.com.au/",
+  "pages": [
+    {
+      "url": "https://www.gungahlinleisurecentre.com.au/",
+      "length": 9696
+    },
+    {
+      "url": "https://www.gungahlinleisurecentre.com.au/contact-us/manage-membership",
+      "length": 7152
+    },
+    {
+      "url": "https://www.gungahlinleisurecentre.com.au/venue/active-world",
+      "length": 11377
+    },
+    {
+      "url": "https://www.gungahlinleisurecentre.com.au/learn-to-swim/goswim-swimming-lessons",
+      "length": 7286
+    },
+    {
+      "url": "https://www.gungahlinleisurecentre.com.au/join/member-benefits",
+      "length": 6800
+    },
+    {
+      "url": "https://www.gungahlinleisurecentre.com.au/swim/aquatic-facilities",
+      "length": 5947
+    },
+    {
+      "url": "https://www.gungahlinleisurecentre.com.au/train/fitness-facilities",
+      "length": 5487
+    },
+    {
+      "url": "https://www.gungahlinleisurecentre.com.au/train/reformer-pilates",
+      "length": 8905
+    },
+    {
+      "url": "https://www.gungahlinleisurecentre.com.au/footer-links/fitness-facilities",
+      "length": 5199
+    },
+    {
+      "url": "https://www.gungahlinleisurecentre.com.au/join/memberships-passes",
+      "length": 5609
+    }
+  ],
+  "total_pages": 10,
+  "total_chars": 73458
+}

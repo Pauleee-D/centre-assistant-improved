@@ -1,0 +1,36 @@
+{
+  "centre_id": "centrepointblayney",
+  "base_url": "http://www.centrepointblayney.com.au/",
+  "pages": [
+    {
+      "url": "http://www.centrepointblayney.com.au/",
+      "length": 3094
+    },
+    {
+      "url": "http://www.centrepointblayney.com.au/join/memberships/",
+      "length": 2001
+    },
+    {
+      "url": "http://www.centrepointblayney.com.au/play/sport-facilities/",
+      "length": 1694
+    },
+    {
+      "url": "http://www.centrepointblayney.com.au/gym/fitness-facilities/",
+      "length": 1448
+    },
+    {
+      "url": "http://www.centrepointblayney.com.au/venue/about-us/",
+      "length": 1163
+    },
+    {
+      "url": "http://www.centrepointblayney.com.au/swim/aquatic-facilities/",
+      "length": 1388
+    },
+    {
+      "url": "http://www.centrepointblayney.com.au/learn-to-swim/goswim-swimming-lessons/",
+      "length": 3987
+    }
+  ],
+  "total_pages": 7,
+  "total_chars": 14775
+}

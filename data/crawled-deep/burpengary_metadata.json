@@ -1,0 +1,36 @@
+{
+  "centre_id": "burpengary",
+  "base_url": "https://www.burpengaryralc.com.au/",
+  "pages": [
+    {
+      "url": "https://www.burpengaryralc.com.au/",
+      "length": 3541
+    },
+    {
+      "url": "https://www.burpengaryralc.com.au/venue/about-us/",
+      "length": 2829
+    },
+    {
+      "url": "https://www.burpengaryralc.com.au/venue/opening-hours/",
+      "length": 984
+    },
+    {
+      "url": "https://www.burpengaryralc.com.au/join/memberships/",
+      "length": 2051
+    },
+    {
+      "url": "https://www.burpengaryralc.com.au/gym/",
+      "length": 1409
+    },
+    {
+      "url": "https://www.burpengaryralc.com.au/learn-to-swim/",
+      "length": 2194
+    },
+    {
+      "url": "https://www.burpengaryralc.com.au/swim/",
+      "length": 2426
+    }
+  ],
+  "total_pages": 7,
+  "total_chars": 15434
+}

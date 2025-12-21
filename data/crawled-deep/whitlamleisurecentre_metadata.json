@@ -1,0 +1,48 @@
+{
+  "centre_id": "whitlamleisurecentre",
+  "base_url": "https://www.whitlamleisurecentre.com.au/",
+  "pages": [
+    {
+      "url": "https://www.whitlamleisurecentre.com.au/",
+      "length": 8533
+    },
+    {
+      "url": "https://www.whitlamleisurecentre.com.au/join/memberships-passes",
+      "length": 6442
+    },
+    {
+      "url": "https://www.whitlamleisurecentre.com.au/join/member-benefits",
+      "length": 6785
+    },
+    {
+      "url": "https://www.whitlamleisurecentre.com.au/train/timetable",
+      "length": 7444
+    },
+    {
+      "url": "https://www.whitlamleisurecentre.com.au/venue/about-us",
+      "length": 6468
+    },
+    {
+      "url": "https://www.whitlamleisurecentre.com.au/learn-to-swim/access-inclusion",
+      "length": 5125
+    },
+    {
+      "url": "https://www.whitlamleisurecentre.com.au/venue/entry-fees",
+      "length": 5101
+    },
+    {
+      "url": "https://www.whitlamleisurecentre.com.au/train/begin-program",
+      "length": 7654
+    },
+    {
+      "url": "https://www.whitlamleisurecentre.com.au/train/group-exercise",
+      "length": 5402
+    },
+    {
+      "url": "https://www.whitlamleisurecentre.com.au/news/refer-a-friend-to-goswim-for-your-chance-to-win",
+      "length": 5815
+    }
+  ],
+  "total_pages": 10,
+  "total_chars": 64769
+}

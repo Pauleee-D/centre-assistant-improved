@@ -1,0 +1,48 @@
+{
+  "centre_id": "auburnruth",
+  "base_url": "https://www.auburnaquaticcentre.com.au/",
+  "pages": [
+    {
+      "url": "https://www.auburnaquaticcentre.com.au/",
+      "length": 4219
+    },
+    {
+      "url": "https://www.auburnaquaticcentre.com.au/news",
+      "length": 2800
+    },
+    {
+      "url": "https://www.auburnaquaticcentre.com.au/swim/",
+      "length": 2473
+    },
+    {
+      "url": "https://www.auburnaquaticcentre.com.au/venue/about-us/",
+      "length": 2778
+    },
+    {
+      "url": "https://www.auburnaquaticcentre.com.au/learn-to-swim/",
+      "length": 2128
+    },
+    {
+      "url": "https://www.auburnaquaticcentre.com.au/learn-to-swim/goswim-swimming-lessons/",
+      "length": 9948
+    },
+    {
+      "url": "https://www.auburnaquaticcentre.com.au/making-the-most-of-your-winter-swimming-lessons/",
+      "length": 1702
+    },
+    {
+      "url": "https://www.auburnaquaticcentre.com.au/refer-a-friend-for-your-chance-to-win-and-inspire-a-love-of-swimming/",
+      "length": 4348
+    },
+    {
+      "url": "https://www.auburnaquaticcentre.com.au/venue/opening-hours/",
+      "length": 1073
+    },
+    {
+      "url": "https://www.auburnaquaticcentre.com.au/its-world-mental-health-day/",
+      "length": 5583
+    }
+  ],
+  "total_pages": 10,
+  "total_chars": 37052
+}

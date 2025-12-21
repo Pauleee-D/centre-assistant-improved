@@ -1,0 +1,48 @@
+{
+  "centre_id": "civicreserve",
+  "base_url": "https://www.civicreccentre.com.au/",
+  "pages": [
+    {
+      "url": "https://www.civicreccentre.com.au/",
+      "length": 8169
+    },
+    {
+      "url": "https://www.civicreccentre.com.au/train/group-fitness-classes",
+      "length": 7406
+    },
+    {
+      "url": "https://www.civicreccentre.com.au/join/member-benefits",
+      "length": 5870
+    },
+    {
+      "url": "https://www.civicreccentre.com.au/train/introductory-program",
+      "length": 6686
+    },
+    {
+      "url": "https://www.civicreccentre.com.au/contact-us/visit-our-other-centres",
+      "length": 4215
+    },
+    {
+      "url": "https://www.civicreccentre.com.au/play/basketball-holiday-activities",
+      "length": 4150
+    },
+    {
+      "url": "https://www.civicreccentre.com.au/join/memberships-passes",
+      "length": 8501
+    },
+    {
+      "url": "https://www.civicreccentre.com.au/play/inclusive-programs",
+      "length": 5280
+    },
+    {
+      "url": "https://www.civicreccentre.com.au/play/social-sports",
+      "length": 5884
+    },
+    {
+      "url": "https://www.civicreccentre.com.au/contact-us/get-in-touch",
+      "length": 4788
+    }
+  ],
+  "total_pages": 10,
+  "total_chars": 60949
+}

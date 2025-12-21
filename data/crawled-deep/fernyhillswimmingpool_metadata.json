@@ -1,0 +1,48 @@
+{
+  "centre_id": "fernyhillswimmingpool",
+  "base_url": "https://www.fernyhillspool.com.au/",
+  "pages": [
+    {
+      "url": "https://www.fernyhillspool.com.au/",
+      "length": 3463
+    },
+    {
+      "url": "https://www.fernyhillspool.com.au/venue/about-us/",
+      "length": 2259
+    },
+    {
+      "url": "https://www.fernyhillspool.com.au/its-world-mental-health-day/",
+      "length": 5528
+    },
+    {
+      "url": "https://www.fernyhillspool.com.au/making-the-most-of-your-winter-swimming-lessons/",
+      "length": 2522
+    },
+    {
+      "url": "https://www.fernyhillspool.com.au/join/memberships/",
+      "length": 1672
+    },
+    {
+      "url": "https://www.fernyhillspool.com.au/news",
+      "length": 2763
+    },
+    {
+      "url": "https://www.fernyhillspool.com.au/swim/",
+      "length": 2468
+    },
+    {
+      "url": "https://www.fernyhillspool.com.au/venue/opening-hours/",
+      "length": 1366
+    },
+    {
+      "url": "https://www.fernyhillspool.com.au/learn-to-swim/goswim-swimming-lessons/",
+      "length": 9907
+    },
+    {
+      "url": "https://www.fernyhillspool.com.au/refer-a-friend-for-your-chance-to-win-and-inspire-a-love-of-swimming-2/",
+      "length": 4342
+    }
+  ],
+  "total_pages": 10,
+  "total_chars": 36290
+}

@@ -1,0 +1,40 @@
+{
+  "centre_id": "splashdevonport",
+  "base_url": "https://www.splashdevonport.com.au/",
+  "pages": [
+    {
+      "url": "https://www.splashdevonport.com.au/",
+      "length": 3199
+    },
+    {
+      "url": "https://www.splashdevonport.com.au/join/memberships/",
+      "length": 2666
+    },
+    {
+      "url": "https://www.splashdevonport.com.au/swim/",
+      "length": 2097
+    },
+    {
+      "url": "https://www.splashdevonport.com.au/venue/opening-hours/",
+      "length": 2124
+    },
+    {
+      "url": "https://www.splashdevonport.com.au/venue/about-us/",
+      "length": 3157
+    },
+    {
+      "url": "https://www.splashdevonport.com.au/learn-to-swim/",
+      "length": 1704
+    },
+    {
+      "url": "https://www.splashdevonport.com.au/gym/",
+      "length": 1664
+    },
+    {
+      "url": "https://www.splashdevonport.com.au/learn-to-swim/goswim-swimming-lessons/",
+      "length": 9964
+    }
+  ],
+  "total_pages": 8,
+  "total_chars": 26575
+}

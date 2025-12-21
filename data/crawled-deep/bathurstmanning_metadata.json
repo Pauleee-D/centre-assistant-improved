@@ -1,0 +1,48 @@
+{
+  "centre_id": "bathurstmanning",
+  "base_url": "https://www.bathurstaquatic.com.au/",
+  "pages": [
+    {
+      "url": "https://www.bathurstaquatic.com.au/",
+      "length": 4228
+    },
+    {
+      "url": "https://www.bathurstaquatic.com.au/venue/opening-hours/",
+      "length": 838
+    },
+    {
+      "url": "https://www.bathurstaquatic.com.au/venue/about-us/",
+      "length": 3615
+    },
+    {
+      "url": "https://www.bathurstaquatic.com.au/news",
+      "length": 2700
+    },
+    {
+      "url": "https://www.bathurstaquatic.com.au/say-yes-to-you-make-time-to-move/",
+      "length": 4595
+    },
+    {
+      "url": "https://www.bathurstaquatic.com.au/female-changeroom-renovation/",
+      "length": 2657
+    },
+    {
+      "url": "https://www.bathurstaquatic.com.au/learn-to-swim/",
+      "length": 2502
+    },
+    {
+      "url": "https://www.bathurstaquatic.com.au/goswim-swimming-lessons/",
+      "length": 10147
+    },
+    {
+      "url": "https://www.bathurstaquatic.com.au/join/memberships/",
+      "length": 3182
+    },
+    {
+      "url": "https://www.bathurstaquatic.com.au/swim/aqua-aerobics/",
+      "length": 2169
+    }
+  ],
+  "total_pages": 10,
+  "total_chars": 36633
+}

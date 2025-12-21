@@ -1,0 +1,28 @@
+{
+  "centre_id": "eastfremantle",
+  "base_url": "https://bactiveeastfremantle.com.au/",
+  "pages": [
+    {
+      "url": "https://bactiveeastfremantle.com.au/",
+      "length": 5604
+    },
+    {
+      "url": "https://bactiveeastfremantle.com.au/membership/",
+      "length": 4423
+    },
+    {
+      "url": "https://bactiveeastfremantle.com.au/reformer-pilates/",
+      "length": 1355
+    },
+    {
+      "url": "https://bactiveeastfremantle.com.au/train/",
+      "length": 2953
+    },
+    {
+      "url": "https://bactiveeastfremantle.com.au/classes/",
+      "length": 9547
+    }
+  ],
+  "total_pages": 5,
+  "total_chars": 23882
+}

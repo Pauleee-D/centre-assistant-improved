@@ -1,0 +1,48 @@
+{
+  "centre_id": "gympie",
+  "base_url": "https://www.gympiearc.com.au/",
+  "pages": [
+    {
+      "url": "https://www.gympiearc.com.au/",
+      "length": 8988
+    },
+    {
+      "url": "https://www.gympiearc.com.au/getmedia/f4aa3e76-b0b4-4de6-aa5b-4d2f3998bde6/Gympie-ARC-Feb-2019-5-2.jpg",
+      "length": 658363
+    },
+    {
+      "url": "https://www.gympiearc.com.au/footer-links/about-us",
+      "length": 5134
+    },
+    {
+      "url": "https://www.gympiearc.com.au/landing-pages/events",
+      "length": 3580
+    },
+    {
+      "url": "https://www.gympiearc.com.au/swim/aquatic-facilities",
+      "length": 6560
+    },
+    {
+      "url": "https://www.gympiearc.com.au/train/personal-training",
+      "length": 6415
+    },
+    {
+      "url": "https://www.gympiearc.com.au/getmedia/53091838-367e-45b4-a690-048f31091429/Gympie-ARC-Front.JPG",
+      "length": 1344523
+    },
+    {
+      "url": "https://www.gympiearc.com.au/footer-links/privacy-policy",
+      "length": 16552
+    },
+    {
+      "url": "https://www.gympiearc.com.au/getmedia/4facc342-49f3-4881-8cc1-79f0d40c832f/Water-Slides.jpg",
+      "length": 129741
+    },
+    {
+      "url": "https://www.gympiearc.com.au/venue/accessibility-(1)",
+      "length": 9365
+    }
+  ],
+  "total_pages": 10,
+  "total_chars": 2189221
+}
