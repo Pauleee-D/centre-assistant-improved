@@ -42,3 +42,8 @@ next-env.d.ts
 
 .vercel
 .env*.local
+
+# Runtime data and temporary files
+data/feedback/
+scripts/test-failing-centres-local.py
+test-results.json
