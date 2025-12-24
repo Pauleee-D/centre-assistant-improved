@@ -247,12 +247,85 @@ You'll need to present your valid concession card when signing up or visiting.`;
 
     const answer = completion.choices[0]?.message?.content || 'No response generated';
 
+    // Map of centre IDs to website URLs
+    const centreWebsites: Record<string, string> = {
+      albanycreek: 'https://www.albanycreeklc.com.au/',
+      ascotvale: 'https://www.ascotvale.ymca.org.au/',
+      auburnruth: 'https://www.auburnaquaticcentre.com.au/',
+      bathurstmanning: 'https://www.bathurstindoorpool.com.au/',
+      bright: 'https://www.brightsportscentre.com.au/',
+      bundaberg: 'https://bundabergaquaticcentre.com.au/',
+      burpengary: 'https://www.burpengaryralc.com.au/',
+      canberraolympicpool: 'https://www.canberraolympicpool.com.au/',
+      centrepointblayney: 'https://www.blaneyshire.nsw.gov.au/sport-recreation/centrepoint-recreation-centre',
+      chinchilla: 'https://chinchillaaquaticandfitnesscentre.com.au/',
+      civicreserve: 'https://www.civicreccentre.com.au/',
+      dalbyaquaticcentre: 'https://dalbyaquaticcentre.com.au/',
+      dannyfrawley: 'https://www.dannyfrawleycentre.com.au/',
+      dicksonpools: 'https://www.dicksonpool.com.au/',
+      eastfremantle: 'https://bactiveeastfremantle.com.au/',
+      erindale: 'https://erindaleleisurecentre.com.au/',
+      fernyhillswimmingpool: 'https://www.fernyhillspool.com.au/',
+      greatlakes: 'https://greatlakesalc.com.au/',
+      gungahlin: 'https://www.gungahlinleisurecentre.com.au/',
+      gurriwanyarra: 'https://www.gurriwanyarrawc.com.au/',
+      gympie: 'https://www.gympiearc.com.au/',
+      higherstatemelbairport: 'https://higherstatemelbourneairport.com.au/',
+      inverellaquaticcentre: 'https://inverellaquaticcentre.com.au/',
+      jackhort: 'https://www.jackhortmcp.com.au/',
+      keiloreastleisurecentre: 'https://www.movemv.com.au/keilor-east-leisure-centre/',
+      knoxleisureworks: 'https://www.knoxleisureworks.com.au/',
+      kurrikurri: 'https://www.kurrikurriafc.com.au/',
+      lakeside: 'https://www.lakesideleisure.com.au/',
+      loftus: 'https://www.loftusrecreationcentre.com.au/',
+      manningmidcoasttaree: 'https://manningalc.com.au/',
+      mansfieldswimmingpool: 'https://www.mansfieldswimmingpool.com.au/',
+      michaelclarke: 'https://www.michaelclarkecentre.com.au/',
+      michaelwenden: 'https://www.wendenpool.com.au/',
+      millpark: 'https://www.millparkleisure.com.au/',
+      monbulk: 'https://www.monbulkaquatic.com.au/',
+      moree: 'https://www.moreeartesianaquaticcentre.com.au/',
+      pelicanpark: 'https://www.pelicanparkrec.com.au/',
+      portland: 'https://portlandleisurecentre.com.au/',
+      queensparkpool: 'https://www.queensparktohfc.com.au/',
+      robinvale: 'https://www.robinvalepool.com.au/',
+      singleton: 'https://www.singletonaquaticcentre.com.au/',
+      somerville: 'https://www.somervillerecreationcentre.com.au/',
+      splashdevonport: 'https://splashdevonport.ymca.org.au/',
+      stromlo: 'https://www.stromloleisurecentre.com.au/',
+      summit: 'https://www.summitlc.com.au/',
+      swanhill: 'https://swanhillleisurecentre.com.au/',
+      swell: 'https://www.swell-belconnen.com.au/',
+      swirl: 'https://www.swirlleisure.com.au/',
+      tehiku: 'https://www.tehikucentre.nz/',
+      tomaree: 'https://www.tomareeleisure.com.au/',
+      trac: 'https://www.trac.org.au/',
+      watermarc: 'https://www.watermarc.com.au/',
+      whitlamleisurecentre: 'https://www.whitlamleisure.com.au/',
+      whittleseaswimcentre: 'https://www.whittleseasc.com.au/',
+      wollondilly: 'https://www.wollondillyleisure.com.au/',
+      wulanda: 'https://www.wulandarec.com.au/',
+      yarra: 'https://www.yarraleisure.com.au/',
+      yarrambatparkgolfcourse: 'https://www.yarrambatgolf.com.au/',
+      yawa: 'https://www.yawaaquatic.com.au/',
+    };
+
+    // Create sources with actual website URLs
+    const sources = filteredResults.map((r: any) => {
+      const meta = r.metadata || {};
+      const centreId = meta.centre;
+      if (centreId && centreWebsites[centreId]) {
+        return {
+          url: centreWebsites[centreId],
+          title: meta.category || 'Website'
+        };
+      }
+      return null;
+    }).filter(Boolean);
+
     return NextResponse.json({
       answer,
-      sources: filteredResults.map((r: any) => {
-        const meta = r.metadata || {};
-        return meta.centre && meta.category ? `${meta.centre} - ${meta.category}` : null;
-      }).filter(Boolean),
+      sources,
     });
   } catch (error) {
     console.error('Error processing query:', error);
