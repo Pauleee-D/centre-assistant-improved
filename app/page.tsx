@@ -114,8 +114,8 @@ export default function Home() {
     setFeedbackRating(null);
 
     try {
-      // Use local API for testing with combined markdown files
-      const response = await fetch('/api/query-local', {
+      // Use Pinecone API for production queries
+      const response = await fetch('/api/query', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ question, centre: selectedCentre }),
