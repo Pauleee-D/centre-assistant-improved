@@ -1,11 +1,11 @@
 {
-  "name": "centre-mcp-server",
+  "name": "centrevs2",
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev -p 3001",
+    "dev": "next dev -p 3002",
     "build": "next build",
-    "start": "next start -p 3001",
+    "start": "next start -p 3002",
     "lint": "eslint",
     "add-knowledge": "tsx scripts/add-knowledge.ts",
     "add-knowledge-improved": "tsx scripts/improved-chunking.ts",

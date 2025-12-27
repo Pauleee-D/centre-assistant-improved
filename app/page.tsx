@@ -4,6 +4,7 @@ import { useState, useMemo } from 'react';
 import centresData from '../data/centres-list.json';
 import { ThemeToggle } from '@/components/theme-toggle';
 import { FormattedAnswer } from '@/components/FormattedAnswer';
+import { queryCache } from '@/lib/query-cache';
 
 // Mapping of centre IDs to their website URLs
 const centreWebsites: Record<string, string> = {
@@ -77,6 +78,7 @@ export default function Home() {
   const [feedbackGiven, setFeedbackGiven] = useState(false);
   const [feedbackRating, setFeedbackRating] = useState<'positive' | 'negative' | null>(null);
   const [sources, setSources] = useState<Array<{url: string, title: string}>>([]);
+  const [llmModel, setLlmModel] = useState<'gemini' | 'groq'>('gemini');
 
   // Get unique states from centres data
   const states = useMemo(() => {
@@ -114,16 +116,33 @@ export default function Home() {
     setFeedbackRating(null);
 
     try {
-      // Use Pinecone query API
-      const response = await fetch('/api/query', {
+      // Check cache first
+      const cachedResult = queryCache.get(llmModel, selectedCentre, question);
+      if (cachedResult) {
+        console.log('Using cached result');
+        setAnswer(cachedResult.answer);
+        setSources(cachedResult.sources);
+        setLoading(false);
+        return;
+      }
+
+      // Use the selected API endpoint based on LLM model
+      const apiEndpoint = llmModel === 'groq' ? '/api/query-groq' : '/api/query';
+      const response = await fetch(apiEndpoint, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ question, centre: selectedCentre }),
       });
 
       const data = await response.json();
-      setAnswer(data.answer || data.error);
-      setSources(data.sources || []);
+      const answerText = data.answer || data.error;
+      const sourcesData = data.sources || [];
+
+      setAnswer(answerText);
+      setSources(sourcesData);
+
+      // Store in cache
+      queryCache.set(llmModel, selectedCentre, question, answerText, sourcesData);
     } catch (error) {
       setAnswer('Error: Failed to get response');
     } finally {
@@ -242,13 +261,30 @@ export default function Home() {
           />
         </div>
 
-        <button
-          type="submit"
-          disabled={loading || !question}
-          className="px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 disabled:bg-gray-400"
-        >
-          {loading ? 'Searching...' : 'Ask Question'}
-        </button>
+        <div className="flex gap-4">
+          <button
+            type="button"
+            onClick={(e) => {
+              setLlmModel('gemini');
+              handleSubmit(e as any);
+            }}
+            disabled={loading || !question}
+            className="flex-1 px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 disabled:bg-gray-400 font-semibold transition-colors"
+          >
+            {loading && llmModel === 'gemini' ? 'Searching...' : 'Ask Google Gemini'}
+          </button>
+          <button
+            type="button"
+            onClick={(e) => {
+              setLlmModel('groq');
+              handleSubmit(e as any);
+            }}
+            disabled={loading || !question}
+            className="flex-1 px-6 py-3 bg-green-600 text-white rounded-lg hover:bg-green-700 disabled:bg-gray-400 font-semibold transition-colors"
+          >
+            {loading && llmModel === 'groq' ? 'Searching...' : 'Ask Groq (Llama)'}
+          </button>
+        </div>
       </form>
 
       {answer && (
