@@ -307,8 +307,16 @@ You'll need to present your valid concession card when signing up or visiting.`;
     });
   } catch (error) {
     console.error('Error processing query:', error);
+    console.error('Error details:', {
+      message: error instanceof Error ? error.message : 'Unknown error',
+      stack: error instanceof Error ? error.stack : undefined,
+      indexName: process.env.PINECONE_INDEX_NAME,
+    });
     return NextResponse.json(
-      { error: 'Failed to process query' },
+      {
+        error: 'Failed to process query',
+        details: error instanceof Error ? error.message : 'Unknown error'
+      },
       { status: 500 }
     );
   }
