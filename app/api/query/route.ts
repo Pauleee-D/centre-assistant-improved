@@ -1,21 +1,10 @@
 import { NextResponse } from 'next/server';
 import { Pinecone } from '@pinecone-database/pinecone';
-import Groq from 'groq-sdk';
-import { CohereClient } from 'cohere-ai';
+import { GoogleGenerativeAI } from '@google/generative-ai';
 
 // Lazy initialization to avoid build-time errors
-let groq: Groq;
 let pinecone: Pinecone;
-let cohere: CohereClient;
-
-function getGroq() {
-  if (!groq) {
-    groq = new Groq({
-      apiKey: process.env.GROQ_API_KEY!,
-    });
-  }
-  return groq;
-}
+let googleAI: GoogleGenerativeAI;
 
 function getPinecone() {
   if (!pinecone) {
@@ -26,13 +15,11 @@ function getPinecone() {
   return pinecone;
 }
 
-function getCohere() {
-  if (!cohere) {
-    cohere = new CohereClient({
-      token: process.env.COHERE_API_KEY!,
-    });
+function getGoogleAI() {
+  if (!googleAI) {
+    googleAI = new GoogleGenerativeAI(process.env.GOOGLE_API_KEY!);
   }
-  return cohere;
+  return googleAI;
 }
 
 // Simple in-memory rate limiting
@@ -87,19 +74,17 @@ export async function POST(request: Request) {
       );
     }
 
-    // Generate embedding for the question using Cohere
-    const embeddingResponse = await getCohere().embed({
-      texts: [question],
-      model: 'embed-english-v3.0',
-      inputType: 'search_query',
+    // Generate embedding for the question using Google Gemini
+    const embeddingModel = getGoogleAI().getGenerativeModel({
+      model: 'text-embedding-004'
     });
 
-    const queryEmbedding = (embeddingResponse.embeddings as number[][])[0];
+    const embeddingResult = await embeddingModel.embedContent(question);
+    const queryEmbedding = embeddingResult.embedding.values;
 
-    // Query Pinecone with explicit host
+    // Query Pinecone
     const indexName = process.env.PINECONE_INDEX_NAME!;
-    const indexHost = 'centre2-te9sgjq.svc.aped-4627-b74a.pinecone.io';
-    const index = getPinecone().index(indexName, indexHost);
+    const index = getPinecone().index(indexName);
 
     // Build filter for centre if specified
     const filter = centre && centre !== 'all'
@@ -229,23 +214,16 @@ A: Yes, concession rates are available for:
 
 You'll need to present your valid concession card when signing up or visiting.`;
 
-    const completion = await getGroq().chat.completions.create({
-      model: 'llama-3.1-8b-instant',
-      messages: [
-        {
-          role: 'system',
-          content: systemPrompt,
-        },
-        {
-          role: 'user',
-          content: `Based on the following information from our leisure centre knowledge base, answer the question.\n\nKnowledge Base Information:\n${context}\n\nQuestion: ${question}\n\nProvide a helpful, professional response:`,
-        },
-      ],
-      temperature: 0.7,
-      max_tokens: 500,
+    const model = getGoogleAI().getGenerativeModel({
+      model: 'gemini-2.5-flash',
+      systemInstruction: systemPrompt
     });
 
-    const answer = completion.choices[0]?.message?.content || 'No response generated';
+    const result = await model.generateContent(
+      `Based on the following information from our leisure centre knowledge base, answer the question.\n\nKnowledge Base Information:\n${context}\n\nQuestion: ${question}\n\nProvide a helpful, professional response:`
+    );
+
+    const answer = result.response.text() || 'No response generated';
 
     // Map of centre IDs to website URLs
     const centreWebsites: Record<string, string> = {

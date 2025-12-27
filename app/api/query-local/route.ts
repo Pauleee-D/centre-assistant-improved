@@ -1,18 +1,16 @@
 import { NextResponse } from 'next/server';
-import Groq from 'groq-sdk';
+import { GoogleGenerativeAI } from '@google/generative-ai';
 import { readFileSync } from 'fs';
 import { join } from 'path';
 
 // Lazy initialization to avoid build-time errors
-let groq: Groq;
+let googleAI: GoogleGenerativeAI;
 
-function getGroq() {
-  if (!groq) {
-    groq = new Groq({
-      apiKey: process.env.GROQ_API_KEY!,
-    });
+function getGoogleAI() {
+  if (!googleAI) {
+    googleAI = new GoogleGenerativeAI(process.env.GOOGLE_API_KEY!);
   }
-  return groq;
+  return googleAI;
 }
 
 // Simple in-memory rate limiting
@@ -143,7 +141,7 @@ export async function POST(request: Request) {
     // Extract relevant sections
     const context = extractRelevantSections(centreData.content, question);
 
-    // Generate response with Groq
+    // Generate response with Google Gemini
     const systemPrompt = `You are a helpful leisure centre assistant. Answer questions about facilities, memberships, classes, and policies in a friendly, professional manner. Use the provided context to give accurate, specific answers.
 
 When answering:
@@ -155,23 +153,16 @@ When answering:
 
 IMPORTANT: The context includes both official pricing/schedules and current website information. Prioritize official pricing tables when they're available.`;
 
-    const completion = await getGroq().chat.completions.create({
-      model: 'llama-3.1-8b-instant',
-      messages: [
-        {
-          role: 'system',
-          content: systemPrompt,
-        },
-        {
-          role: 'user',
-          content: `Based on the following information from the leisure centre knowledge base, answer the question.\n\nKnowledge Base Information:\n${context}\n\nQuestion: ${question}\n\nProvide a helpful, professional response:`,
-        },
-      ],
-      temperature: 0.7,
-      max_tokens: 500,
+    const model = getGoogleAI().getGenerativeModel({
+      model: 'gemini-2.5-flash',
+      systemInstruction: systemPrompt
     });
 
-    const answer = completion.choices[0]?.message?.content || 'No response generated';
+    const result = await model.generateContent(
+      `Based on the following information from the leisure centre knowledge base, answer the question.\n\nKnowledge Base Information:\n${context}\n\nQuestion: ${question}\n\nProvide a helpful, professional response:`
+    );
+
+    const answer = result.response.text() || 'No response generated';
 
     // Build sources list with URLs from metadata
     const sources = centreData.metadata.pages?.map((page: any) => ({

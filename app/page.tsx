@@ -114,7 +114,7 @@ export default function Home() {
     setFeedbackRating(null);
 
     try {
-      // Use Pinecone API for production queries
+      // Use Pinecone query API
       const response = await fetch('/api/query', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
